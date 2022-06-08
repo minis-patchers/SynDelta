@@ -5,7 +5,7 @@ using Newtonsoft.Json.Linq;
 using JsonDiffPatchDotNet;
 using JsonDiffPatchDotNet.Formatters.JsonPatch;
 using System.Linq;
-using System.Reflection.PortableExecutable;
+using System.Diagnostics.Tracing;
 
 namespace MakeJSONPatch
 {
@@ -41,7 +41,9 @@ namespace MakeJSONPatch
             var Formatter = new JsonDeltaFormatter();
             var diff = Formatter.Format(jsed.Diff(DBOld, DBConv));
             File.WriteAllText(cfg.DB_Old, JsonConvert.SerializeObject(DBConv, Formatting.Indented));
-            File.WriteAllText(Path.Combine(cfg.indexes, $"{patchIndex.Count}.json"), JsonConvert.SerializeObject(diff, Formatting.Indented));
+            File.WriteAllText(Path.Combine(cfg.indexes, $"{patchIndex.Count}.json"), JsonConvert.SerializeObject(diff, Formatting.Indented, new JsonSerializerSettings() {
+                NullValueHandling = NullValueHandling.Ignore,
+            }));
             patchIndex.Add($"https://raw.githubusercontent.com/{cfg.repoName}/{cfg.branch}/{cfg.Name}/{patchIndex.Count}.json");
             File.WriteAllText(Path.Combine(cfg.indexes,"index.json"), JsonConvert.SerializeObject(patchIndex, Formatting.Indented));
         }
