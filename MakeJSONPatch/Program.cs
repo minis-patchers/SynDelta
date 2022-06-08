@@ -5,7 +5,6 @@ using Newtonsoft.Json.Linq;
 using JsonDiffPatchDotNet;
 using JsonDiffPatchDotNet.Formatters.JsonPatch;
 using System.Linq;
-using System.Diagnostics.Tracing;
 
 namespace MakeJSONPatch
 {
