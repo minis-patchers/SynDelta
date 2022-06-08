@@ -2,7 +2,6 @@
   {
     "path": "/DB",
     "op": "add",
-    "from": null,
     "value": {
       "Rapier": {
         "keyword": [
@@ -416,15 +415,8 @@
     }
   },
   {
-    "path": "/DBPatchVer",
-    "op": "add",
-    "from": null,
-    "value": 1
-  },
-  {
     "path": "/excludes",
     "op": "add",
-    "from": null,
     "value": {
       "phrases": [
         "riekling",
@@ -446,7 +438,6 @@
   {
     "path": "/sources",
     "op": "add",
-    "from": null,
     "value": [
       "NewArmoury.esp",
       "NWTA.esp",
