@@ -1,0 +1,63 @@
+[
+  {
+    "path": "/DB/Claw/excludeSource/0",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Gun/excludeSource/0",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Halberd/excludeSource/0",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Katana/excludeSource/0",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Pike/excludeSource/0",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Quarterstaff/excludeSource/0",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Rapier/excludeSource/0",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Scimitar/excludeSource/0",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Scythe/excludeSource/0",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Shortspear/excludeSource/0",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Shortspear/keyword/1",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Spear/excludeSource/0",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Unarmed/excludeSource/0",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Whip/excludeSource/0",
+    "op": "remove"
+  },
+  {
+    "value": 3,
+    "path": "/DBPatchVer",
+    "op": "replace"
+  }
+]
