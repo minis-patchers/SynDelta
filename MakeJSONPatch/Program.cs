@@ -40,11 +40,14 @@ namespace MakeJSONPatch
             var Formatter = new JsonDeltaFormatter();
             var diff = Formatter.Format(jsed.Diff(DBOld, DBConv));
             File.WriteAllText(cfg.DB_Old, JsonConvert.SerializeObject(DBConv, Formatting.Indented));
-            File.WriteAllText(Path.Combine(cfg.Indexes, $"{patchIndex.Count}.json"), JsonConvert.SerializeObject(diff, Formatting.Indented, new JsonSerializerSettings() {
+            File.WriteAllText(Path.Combine(cfg.Indexes, $"{patchIndex.Count}.json"), JsonConvert.SerializeObject(diff, Formatting.Indented, new JsonSerializerSettings()
+            {
                 NullValueHandling = NullValueHandling.Ignore,
             }));
             patchIndex.Add($"https://raw.githubusercontent.com/{cfg.RepoName}/{cfg.Branch}/{cfg.Name}/{patchIndex.Count}.json");
-            File.WriteAllText(Path.Combine(cfg.Indexes,"index.json"), JsonConvert.SerializeObject(patchIndex, Formatting.Indented));
+            DBConv["DBPatchVer"] = patchIndex.Count + 1;
+            File.WriteAllText(cfg.DB_New, JsonConvert.SerializeObject(DBConv, Formatting.Indented));
+            File.WriteAllText(Path.Combine(cfg.Indexes, "index.json"), JsonConvert.SerializeObject(patchIndex, Formatting.Indented));
         }
     }
 }
