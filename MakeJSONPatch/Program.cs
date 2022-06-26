@@ -45,7 +45,7 @@ namespace MakeJSONPatch
                 NullValueHandling = NullValueHandling.Ignore,
             }));
             patchIndex.Add($"https://raw.githubusercontent.com/{cfg.RepoName}/{cfg.Branch}/{cfg.Name}/{patchIndex.Count}.json");
-            DBConv["DBPatchVer"] = patchIndex.Count + 1;
+            DBConv["DBPatchVer"] = patchIndex.Count;
             File.WriteAllText(cfg.DB_New, JsonConvert.SerializeObject(DBConv, Formatting.Indented));
             File.WriteAllText(Path.Combine(cfg.Indexes, "index.json"), JsonConvert.SerializeObject(patchIndex, Formatting.Indented));
         }
