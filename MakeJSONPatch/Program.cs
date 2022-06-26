@@ -15,9 +15,9 @@ namespace MakeJSONPatch
             public string Name;
             public string DB_Old;
             public string DB_New;
-            public string indexes;
-            public string repoName;
-            public string branch;
+            public string Indexes;
+            public string RepoName;
+            public string Branch;
         }
         public static void Main(string[] args)
         {
@@ -36,15 +36,15 @@ namespace MakeJSONPatch
             var cfg = conf.Where(x => x.Name == cn).First();
             var DBOld = JObject.Parse(File.ReadAllText(cfg.DB_Old));
             var DBConv = JObject.Parse(File.ReadAllText(cfg.DB_New));
-            var patchIndex = JArray.Parse(File.ReadAllText(Path.Combine(cfg.indexes, "index.json")));
+            var patchIndex = JArray.Parse(File.ReadAllText(Path.Combine(cfg.Indexes, "index.json")));
             var Formatter = new JsonDeltaFormatter();
             var diff = Formatter.Format(jsed.Diff(DBOld, DBConv));
             File.WriteAllText(cfg.DB_Old, JsonConvert.SerializeObject(DBConv, Formatting.Indented));
-            File.WriteAllText(Path.Combine(cfg.indexes, $"{patchIndex.Count}.json"), JsonConvert.SerializeObject(diff, Formatting.Indented, new JsonSerializerSettings() {
+            File.WriteAllText(Path.Combine(cfg.Indexes, $"{patchIndex.Count}.json"), JsonConvert.SerializeObject(diff, Formatting.Indented, new JsonSerializerSettings() {
                 NullValueHandling = NullValueHandling.Ignore,
             }));
-            patchIndex.Add($"https://raw.githubusercontent.com/{cfg.repoName}/{cfg.branch}/{cfg.Name}/{patchIndex.Count}.json");
-            File.WriteAllText(Path.Combine(cfg.indexes,"index.json"), JsonConvert.SerializeObject(patchIndex, Formatting.Indented));
+            patchIndex.Add($"https://raw.githubusercontent.com/{cfg.RepoName}/{cfg.Branch}/{cfg.Name}/{patchIndex.Count}.json");
+            File.WriteAllText(Path.Combine(cfg.Indexes,"index.json"), JsonConvert.SerializeObject(patchIndex, Formatting.Indented));
         }
     }
 }
