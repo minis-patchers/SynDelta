@@ -1,5 +1,10 @@
 [
   {
+    "value": 1,
+    "path": "/DBPatchVer",
+    "op": "replace"
+  },
+  {
     "path": "/DB",
     "op": "add",
     "value": {
