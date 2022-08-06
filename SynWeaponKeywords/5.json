@@ -1,0 +1,12 @@
+[
+  {
+    "value": true,
+    "path": "/Gen",
+    "op": "add"
+  },
+  {
+    "value": 6,
+    "path": "/DBPatchVer",
+    "op": "replace"
+  }
+]
