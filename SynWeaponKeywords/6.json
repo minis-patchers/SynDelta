@@ -1,0 +1,84 @@
+[
+  {
+    "value": [
+      "NAR_Sig"
+    ],
+    "path": "/DB/Claw/excludeGen",
+    "op": "add"
+  },
+  {
+    "value": [],
+    "path": "/DB/Gun/excludeGen",
+    "op": "add"
+  },
+  {
+    "value": [
+      "NAR_Sig"
+    ],
+    "path": "/DB/Halberd/excludeGen",
+    "op": "add"
+  },
+  {
+    "value": [],
+    "path": "/DB/Javelin/excludeGen",
+    "op": "add"
+  },
+  {
+    "value": [
+      "NAR_Sig"
+    ],
+    "path": "/DB/Pike/excludeGen",
+    "op": "add"
+  },
+  {
+    "value": [
+      "NAR_Sig"
+    ],
+    "path": "/DB/Quarterstaff/excludeGen",
+    "op": "add"
+  },
+  {
+    "value": [
+      "NAR_Sig"
+    ],
+    "path": "/DB/Rapier/excludeGen",
+    "op": "add"
+  },
+  {
+    "value": [],
+    "path": "/DB/Scimitar/excludeGen",
+    "op": "add"
+  },
+  {
+    "value": [],
+    "path": "/DB/Scythe/excludeGen",
+    "op": "add"
+  },
+  {
+    "value": [],
+    "path": "/DB/Shortspear/excludeGen",
+    "op": "add"
+  },
+  {
+    "value": [
+      "NAR_Sig"
+    ],
+    "path": "/DB/Spear/excludeGen",
+    "op": "add"
+  },
+  {
+    "value": [],
+    "path": "/DB/Unarmed/excludeGen",
+    "op": "add"
+  },
+  {
+    "value": [],
+    "path": "/DB/Whip/excludeGen",
+    "op": "add"
+  },
+  {
+    "value": 7,
+    "path": "/DBPatchVer",
+    "op": "replace"
+  }
+]
