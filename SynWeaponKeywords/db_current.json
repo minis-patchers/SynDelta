@@ -9,7 +9,7 @@
         "shortsword"
       ],
       "excludeNames": [],
-      "EQType": "EitherHand",
+      "EQType": "RightHand",
       "NameOverrides": [],
       "outputDescription": "a rapier",
       "Animation": "OneHandSword",
@@ -33,7 +33,7 @@
         "crosshilt",
         "foil"
       ],
-      "EQType": "EitherHand",
+      "EQType": "RightHand",
       "NameOverrides": [],
       "excludeNames": [],
       "outputDescription": "a rapier",
@@ -152,7 +152,7 @@
       "keyword": [
         "WeapTypeSword",
         "WeapTypeSpear",
-        "WeapTypeShortSpear"
+        "WeapTypeShortspear"
       ],
       "commonNames": [
         "shortspear",
@@ -289,7 +289,7 @@
         "daikatana",
         "claw"
       ],
-      "EQType": "EitherHand",
+      "EQType": "RightHand",
       "NameOverrides": [],
       "outputDescription": "a katana",
       "Animation": "OneHandSword",
@@ -345,7 +345,7 @@
         "kilij",
         "curved sword"
       ],
-      "EQType": "EitherHand",
+      "EQType": "RightHand",
       "NameOverrides": [],
       "excludeNames": [],
       "outputDescription": "a curved sword",
@@ -475,7 +475,7 @@
         "blunderbuss",
         "matchlock"
       ],
-      "EQType": "EitherHand",
+      "EQType": "RightHand",
       "NameOverrides": [],
       "excludeNames": [],
       "outputDescription": "a gun",
@@ -521,7 +521,7 @@
       "commonNames": [
         "whip"
       ],
-      "EQType": "EitherHand",
+      "EQType": "RightHand",
       "NameOverrides": [],
       "excludeNames": [],
       "outputDescription": "a whip",
@@ -601,7 +601,7 @@
       "commonNames": [
         "hatchet"
       ],
-      "EQType": "EitherHand",
+      "EQType": "RightHand",
       "NameOverrides": [],
       "excludeNames": [],
       "outputDescription": "a hatchet",
@@ -690,7 +690,7 @@
     "WeapTypeWhip": "077778:Update.esm",
     "WeapTypeKatana": "077779:Update.esm",
     "WeapTypeGun": "07777A:Update.esm",
-    "WeapTypeShortSpear": "07777B:Update.esm",
+    "WeapTypeShortspear": "07777B:Update.esm",
     "WeapTypeUnarmed": "07777C:Update.esm",
     "WeapTypePoleaxe": "07777D:Update.esm",
     "WeapTypeClub": "07777E:Update.esm",
@@ -703,5 +703,5 @@
     "WeapTypeQtrStaff": "077785:Update.esm",
     "WeapTypeCurvedSword": "077786:Update.esm"
   },
-  "DBVer": 1
+  "DBVer": 2
 }
