@@ -9,6 +9,7 @@
       ],
       "excludeNames": [],
       "outputDescription": "a shortsword",
+      "Animation": "OneHandSword",
       "include": [],
       "exclude": [],
       "excludeSource": [],
@@ -29,6 +30,7 @@
       ],
       "excludeNames": [],
       "outputDescription": "a rapier",
+      "Animation": "OneHandSword",
       "include": [
         "000816:Immersive Weapons.esp",
         "000964:Immersive Weapons.esp",
@@ -62,6 +64,7 @@
         "lance"
       ],
       "excludeNames": [],
+      "Animation": "TwoHandSword",
       "outputDescription": "a pike",
       "include": [
         "00095F:Liliths Tools.esp",
@@ -84,6 +87,7 @@
         "half pike"
       ],
       "excludeNames": [],
+      "Animation": "TwoHandSword",
       "outputDescription": "a half pike",
       "include": [],
       "exclude": [],
@@ -104,6 +108,7 @@
         "short-spear"
       ],
       "outputDescription": "a spear",
+      "Animation": "OneHandSword",
       "include": [
         "0246A8:DS3 Weapon Pack.esp"
       ],
@@ -143,6 +148,7 @@
       ],
       "excludeNames": [],
       "outputDescription": "a shortspear",
+      "Animation": "OneHandSword",
       "include": [],
       "exclude": [],
       "excludeSource": [],
@@ -156,6 +162,7 @@
       "commonNames": [
         "poleaxe"
       ],
+      "Animation": "TwoHandAxe",
       "excludeNames": [],
       "outputDescription": "a poleaxe",
       "include": [],
@@ -175,6 +182,7 @@
       ],
       "excludeNames": [],
       "outputDescription": "a halberd",
+      "Animation": "TwoHandAxe",
       "include": [
         "000D99:DS3 Weapon Pack.esp",
         "00B090:DS3 Weapon Pack.esp",
@@ -201,6 +209,7 @@
       ],
       "excludeNames": [],
       "outputDescription": "a quarterstaff",
+      "Animation": "TwoHandAxe",
       "include": [],
       "exclude": [],
       "excludeSource": [],
@@ -219,6 +228,7 @@
       ],
       "excludeNames": [],
       "outputDescription": "a dai-katana",
+      "Animation": "TwoHandSword",
       "include": [
         "04A38F:Skyrim.esm",
         "0EA29C:Skyrim.esm",
@@ -240,7 +250,8 @@
         "zatoichi",
         "ka po' tun",
         "wakizashi",
-        "akaviri"
+        "akaviri",
+        "katana"
       ],
       "excludeNames": [
         "dai-katana",
@@ -248,6 +259,7 @@
         "claw"
       ],
       "outputDescription": "a katana",
+      "Animation": "OneHandSword",
       "include": [
         "000D61:ccbgssse005-goldbrand.esl",
         "0C1989:Skyrim.esm",
@@ -300,6 +312,7 @@
       ],
       "excludeNames": [],
       "outputDescription": "a curved sword",
+      "Animation": "OneHandSword",
       "include": [
         "00AFF5:DS3 Weapon Pack.esp",
         "00AAF8:DS3 Weapon Pack.esp",
@@ -354,6 +367,7 @@
       ],
       "excludeNames": [],
       "outputDescription": "a curved great-sword",
+      "Animation": "TwoHandSword",
       "include": [
         "0101DE:DS3 Weapon Pack.esp",
         "000F70:DS3 Weapon Pack.esp",
@@ -389,6 +403,7 @@
       ],
       "excludeNames": [],
       "outputDescription": "a claw",
+      "Animation": "OneHandDagger",
       "include": [
         "00B031:DS3 Weapon Pack.esp",
         "00B032:DS3 Weapon Pack.esp"
@@ -414,6 +429,7 @@
         "matchlock"
       ],
       "outputDescription": "a gun",
+      "Animation": "OneHandSword",
       "include": [],
       "exclude": [],
       "excludeSource": [],
@@ -430,6 +446,7 @@
       ],
       "excludeNames": [],
       "outputDescription": "a scythe",
+      "Animation": "TwoHandAxe",
       "include": [],
       "exclude": [
         "77FFD5:LegacyoftheDragonborn.esm",
@@ -450,6 +467,7 @@
       ],
       "excludeNames": [],
       "outputDescription": "a whip",
+      "Animation": "OneHandMace",
       "include": [],
       "exclude": [],
       "excludeSource": [],
@@ -465,6 +483,7 @@
       ],
       "excludeNames": [],
       "outputDescription": "a javelin",
+      "Animation": "OneHandSword",
       "include": [],
       "exclude": [],
       "excludeSource": [],
@@ -480,7 +499,8 @@
         "poleaxe"
       ],
       "excludeNames": [],
-      "outputDescription": "a club",
+      "outputDescription": "a maul",
+      "Animation": "OneHandMace",
       "include": [],
       "exclude": [],
       "excludeSource": [],
@@ -497,6 +517,7 @@
       ],
       "excludeNames": [],
       "outputDescription": "a club",
+      "Animation": "OneHandMace",
       "include": [],
       "exclude": [],
       "excludeSource": [],
@@ -512,6 +533,7 @@
       ],
       "excludeNames": [],
       "outputDescription": "a hatchet",
+      "Animation": "OneHandAxe",
       "include": [],
       "exclude": [],
       "excludeSource": [],
@@ -528,6 +550,7 @@
       ],
       "excludeNames": [],
       "outputDescription": "a glaive",
+      "Animation": "TwoHandSword",
       "include": [],
       "exclude": [],
       "excludeSource": [],
@@ -544,6 +567,7 @@
       ],
       "excludeNames": [],
       "outputDescription": "a trident",
+      "Animation": "TwoHandSword",
       "include": [],
       "exclude": [
         "010E6C:Immersive Weapons.esp"
@@ -602,5 +626,5 @@
     "WeapTypeCurvedSword": "077786:Update.esm",
     "WeapTypeTrident": "077787:Update.esm"
   },
-  "DBVer": 5
+  "DBVer": 6
 }
