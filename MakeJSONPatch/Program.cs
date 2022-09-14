@@ -15,6 +15,7 @@ namespace MakeJSONPatch
             public string Indexes;
             public string RepoName;
             public string Branch;
+            public string VerVar;
         }
         public static void Main(string[] args)
         {
@@ -27,7 +28,7 @@ namespace MakeJSONPatch
             var DBOld = JObject.Parse(File.ReadAllText(cfg.DB_Old));
             var DBConv = JObject.Parse(File.ReadAllText(cfg.DB_New));
             var patchIndex = JArray.Parse(File.ReadAllText(Path.Combine(cfg.Indexes, "index.json")));
-            DBConv["DBPatchVer"] = patchIndex.Count + 1;
+            DBConv[cfg.VerVar] = patchIndex.Count + 1;
             var diff = JsonDiffPatch.JsonDiffPatch.Diff(DBOld, DBConv);
             File.WriteAllText(cfg.DB_Old, JsonConvert.SerializeObject(DBConv, Formatting.Indented));
             File.WriteAllText(Path.Combine(cfg.Indexes, $"{patchIndex.Count}.json"), JsonConvert.SerializeObject(diff, Formatting.Indented, new JsonSerializerSettings()
