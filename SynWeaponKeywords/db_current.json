@@ -2,7 +2,6 @@
   "DB": {
     "Shortsword": {
       "keyword": [
-        "WeapTypeSword",
         "WeapTypeShortsword"
       ],
       "commonNames": [
@@ -22,7 +21,6 @@
     },
     "Rapier": {
       "keyword": [
-        "WeapTypeSword",
         "WeapTypeRapier"
       ],
       "commonNames": [
@@ -64,8 +62,8 @@
     },
     "Pike": {
       "keyword": [
-        "WeapTypeGreatsword",
-        "WeapTypePike"
+        "WeapTypePike",
+        "NAR_Sig"
       ],
       "commonNames": [
         "pike",
@@ -81,7 +79,8 @@
         "00095F:Liliths Tools.esp",
         "000A04:Liliths Tools.esp",
         "000A2A:Liliths Tools.esp",
-        "000A2E:Liliths Tools.esp"
+        "000A2E:Liliths Tools.esp",
+        "000D7D:DS3 Weapon Pack.esp"
       ],
       "exclude": [],
       "excludeSource": [],
@@ -90,7 +89,6 @@
     },
     "HalfPike": {
       "keyword": [
-        "WeapTypeGreatsword",
         "WeapTypePike",
         "WeapTypeHalfPike"
       ],
@@ -111,7 +109,6 @@
     },
     "Spear": {
       "keyword": [
-        "WeapTypeSword",
         "WeapTypeSpear"
       ],
       "commonNames": [
@@ -119,7 +116,11 @@
       ],
       "EQType": "RightHand",
       "NameOverrides": [],
-      "excludeNames": [],
+      "excludeNames": [
+        "shortspear",
+        "short spear",
+        "short-spear"
+      ],
       "outputDescription": "a spear",
       "Animation": "OneHandSword",
       "ModOverrides": [],
@@ -131,6 +132,8 @@
         "11CBFB:LegacyoftheDragonborn.esm",
         "000810:ccbgssse040-advobgobs.esl",
         "000D99:DS3 Weapon Pack.esp",
+        "00D06C:DS3 Weapon Pack.esp",
+        "0246A9:DS3 Weapon Pack.esp",
         "00095F:Liliths Tools.esp",
         "000A04:Liliths Tools.esp",
         "000A2A:Liliths Tools.esp",
@@ -150,7 +153,6 @@
     },
     "Shortspear": {
       "keyword": [
-        "WeapTypeSword",
         "WeapTypeSpear",
         "WeapTypeShortspear"
       ],
@@ -173,8 +175,6 @@
     },
     "Poleaxe": {
       "keyword": [
-        "WeapTypeBattleaxe",
-        "WeapTypeHalberd",
         "WeapTypePoleaxe"
       ],
       "commonNames": [
@@ -194,7 +194,6 @@
     },
     "Halberd": {
       "keyword": [
-        "WeapTypeBattleaxe",
         "WeapTypeHalberd"
       ],
       "commonNames": [
@@ -209,9 +208,11 @@
       "Animation": "TwoHandAxe",
       "ModOverrides": [],
       "include": [
+        "000D99:DS3 Weapon Pack.esp",
         "00B090:DS3 Weapon Pack.esp",
-        "000935:Dark Souls Item Pack by Team TAL.esp",
-        "000D99:DS3 Weapon Pack.esp"
+        "00B0AF:DS3 Weapon Pack.esp",
+        "024695:DS3 Weapon Pack.esp",
+        "000935:Dark Souls Item Pack by Team TAL.esp"
       ],
       "exclude": [],
       "excludeSource": [],
@@ -220,7 +221,6 @@
     },
     "Quarterstaff": {
       "keyword": [
-        "WeapTypeWarhammer",
         "WeapTypeQtrStaff",
         "WeapTypeQuarterstaff"
       ],
@@ -245,13 +245,13 @@
     },
     "Dai-Katana": {
       "keyword": [
-        "WeapTypeGreatsword",
         "WeapTypeKatana"
       ],
       "commonNames": [
         "daikatana",
         "dai-katana",
-        "nodachi"
+        "nodachi",
+        "changdao"
       ],
       "EQType": "BothHands",
       "NameOverrides": [],
@@ -272,7 +272,6 @@
     },
     "Katana": {
       "keyword": [
-        "WeapTypeSword",
         "WeapTypeKatana"
       ],
       "commonNames": [
@@ -281,7 +280,6 @@
         "zatoichi",
         "ka po' tun",
         "wakizashi",
-        "changdao",
         "akaviri"
       ],
       "excludeNames": [
@@ -326,7 +324,6 @@
     },
     "OneHandedCurvedSword": {
       "keyword": [
-        "WeapTypeSword",
         "WeapTypeCurvedSword"
       ],
       "commonNames": [
@@ -361,6 +358,7 @@
         "0101DD:DS3 Weapon Pack.esp",
         "000D72:DS3 Weapon Pack.esp",
         "000D89:DS3 Weapon Pack.esp",
+        "00AFF8:DS3 Weapon Pack.esp",
         "0008F4:Dark Souls Item Pack by Team TAL.esp",
         "0008F5:Dark Souls Item Pack by Team TAL.esp",
         "0008F6:Dark Souls Item Pack by Team TAL.esp",
@@ -412,6 +410,8 @@
         "0101DE:DS3 Weapon Pack.esp",
         "000F70:DS3 Weapon Pack.esp",
         "00B078:DS3 Weapon Pack.esp",
+        "02469A:DS3 Weapon Pack.esp",
+        "00B079:DS3 Weapon Pack.esp",
         "000D6F:Dark Souls Item Pack by Team TAL.esp",
         "000909:Liliths Tools.esp",
         "00094C:Liliths Tools.esp",
@@ -432,7 +432,6 @@
     },
     "Claw": {
       "keyword": [
-        "WeapTypeDagger",
         "WeapTypeClaw",
         "NA_InflictBleed",
         "NA_CantParry"
@@ -489,7 +488,6 @@
     },
     "Scythe": {
       "keyword": [
-        "WeapTypeBattleaxe",
         "WeapTypeScythe"
       ],
       "commonNames": [
@@ -515,7 +513,6 @@
     },
     "Whip": {
       "keyword": [
-        "WeapTypeMace",
         "WeapTypeWhip"
       ],
       "commonNames": [
@@ -544,7 +541,6 @@
     },
     "Javelin": {
       "keyword": [
-        "WeapTypeSword",
         "WeapTypeJavelin"
       ],
       "commonNames": [
@@ -604,7 +600,6 @@
     },
     "Hatchet": {
       "keyword": [
-        "WeapTypeWaraxe",
         "WeapTypeHatchet"
       ],
       "commonNames": [
@@ -644,9 +639,8 @@
     },
     "Trident": {
       "keyword": [
-        "WeapTypeGreatsword",
         "WeapTypePike",
-        "WeapTypeGlaive"
+        "WeapTypeTrident"
       ],
       "commonNames": [
         "trident"
@@ -658,7 +652,9 @@
       "Animation": "TwoHandSword",
       "ModOverrides": [],
       "include": [],
-      "exclude": [],
+      "exclude": [
+        "010E6C:Immersive Weapons.esp"
+      ],
       "excludeSource": [],
       "excludeMod": [],
       "Script": []
@@ -710,7 +706,8 @@
     "WeapTypeGlaive": "077783:Update.esm",
     "WeapTypeLongMace": "077784:Update.esm",
     "WeapTypeQtrStaff": "077785:Update.esm",
-    "WeapTypeCurvedSword": "077786:Update.esm"
+    "WeapTypeCurvedSword": "077786:Update.esm",
+    "WeapTypeTrident": "077787:Update.esm"
   },
-  "DBVer": 3
+  "DBVer": 4
 }

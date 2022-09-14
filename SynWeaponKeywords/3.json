@@ -1,0 +1,483 @@
+[
+  {
+    "value": "WeapTypeClaw",
+    "path": "/DB/Claw/keyword/0",
+    "op": "replace"
+  },
+  {
+    "value": "NA_InflictBleed",
+    "path": "/DB/Claw/keyword/1",
+    "op": "replace"
+  },
+  {
+    "value": "NA_CantParry",
+    "path": "/DB/Claw/keyword/2",
+    "op": "replace"
+  },
+  {
+    "path": "/DB/Claw/keyword/3",
+    "op": "remove"
+  },
+  {
+    "value": "changdao",
+    "path": "/DB/Dai-Katana/commonNames/3",
+    "op": "add"
+  },
+  {
+    "value": "WeapTypeKatana",
+    "path": "/DB/Dai-Katana/keyword/0",
+    "op": "replace"
+  },
+  {
+    "path": "/DB/Dai-Katana/keyword/1",
+    "op": "remove"
+  },
+  {
+    "value": "000D99:DS3 Weapon Pack.esp",
+    "path": "/DB/Halberd/include/0",
+    "op": "replace"
+  },
+  {
+    "value": "00B090:DS3 Weapon Pack.esp",
+    "path": "/DB/Halberd/include/1",
+    "op": "replace"
+  },
+  {
+    "value": "00B0AF:DS3 Weapon Pack.esp",
+    "path": "/DB/Halberd/include/2",
+    "op": "replace"
+  },
+  {
+    "value": "024695:DS3 Weapon Pack.esp",
+    "path": "/DB/Halberd/include/3",
+    "op": "add"
+  },
+  {
+    "value": "000935:Dark Souls Item Pack by Team TAL.esp",
+    "path": "/DB/Halberd/include/4",
+    "op": "add"
+  },
+  {
+    "value": "WeapTypeHalberd",
+    "path": "/DB/Halberd/keyword/0",
+    "op": "replace"
+  },
+  {
+    "path": "/DB/Halberd/keyword/1",
+    "op": "remove"
+  },
+  {
+    "value": "WeapTypePike",
+    "path": "/DB/HalfPike/keyword/0",
+    "op": "replace"
+  },
+  {
+    "value": "WeapTypeHalfPike",
+    "path": "/DB/HalfPike/keyword/1",
+    "op": "replace"
+  },
+  {
+    "path": "/DB/HalfPike/keyword/2",
+    "op": "remove"
+  },
+  {
+    "value": "WeapTypeHatchet",
+    "path": "/DB/Hatchet/keyword/0",
+    "op": "replace"
+  },
+  {
+    "path": "/DB/Hatchet/keyword/1",
+    "op": "remove"
+  },
+  {
+    "value": "WeapTypeJavelin",
+    "path": "/DB/Javelin/keyword/0",
+    "op": "replace"
+  },
+  {
+    "path": "/DB/Javelin/keyword/1",
+    "op": "remove"
+  },
+  {
+    "value": "akaviri",
+    "path": "/DB/Katana/commonNames/5",
+    "op": "replace"
+  },
+  {
+    "path": "/DB/Katana/commonNames/6",
+    "op": "remove"
+  },
+  {
+    "value": "WeapTypeKatana",
+    "path": "/DB/Katana/keyword/0",
+    "op": "replace"
+  },
+  {
+    "path": "/DB/Katana/keyword/1",
+    "op": "remove"
+  },
+  {
+    "value": "00AFF8:DS3 Weapon Pack.esp",
+    "path": "/DB/OneHandedCurvedSword/include/9",
+    "op": "replace"
+  },
+  {
+    "value": "0008F4:Dark Souls Item Pack by Team TAL.esp",
+    "path": "/DB/OneHandedCurvedSword/include/10",
+    "op": "replace"
+  },
+  {
+    "value": "0008F5:Dark Souls Item Pack by Team TAL.esp",
+    "path": "/DB/OneHandedCurvedSword/include/11",
+    "op": "replace"
+  },
+  {
+    "value": "0008F6:Dark Souls Item Pack by Team TAL.esp",
+    "path": "/DB/OneHandedCurvedSword/include/12",
+    "op": "replace"
+  },
+  {
+    "value": "000811:PrvtIRoyalArmory.esp",
+    "path": "/DB/OneHandedCurvedSword/include/13",
+    "op": "replace"
+  },
+  {
+    "value": "000830:Hammerfell Armory SE.esp",
+    "path": "/DB/OneHandedCurvedSword/include/14",
+    "op": "replace"
+  },
+  {
+    "value": "000831:Hammerfell Armory SE.esp",
+    "path": "/DB/OneHandedCurvedSword/include/15",
+    "op": "replace"
+  },
+  {
+    "value": "000832:Hammerfell Armory SE.esp",
+    "path": "/DB/OneHandedCurvedSword/include/16",
+    "op": "replace"
+  },
+  {
+    "value": "018DDD:Dragonborn.esm",
+    "path": "/DB/OneHandedCurvedSword/include/17",
+    "op": "replace"
+  },
+  {
+    "value": "037FF2:Dragonborn.esm",
+    "path": "/DB/OneHandedCurvedSword/include/18",
+    "op": "replace"
+  },
+  {
+    "value": "036689:Dragonborn.esm",
+    "path": "/DB/OneHandedCurvedSword/include/19",
+    "op": "replace"
+  },
+  {
+    "value": "037FF3:Dragonborn.esm",
+    "path": "/DB/OneHandedCurvedSword/include/20",
+    "op": "replace"
+  },
+  {
+    "value": "193654:ArteFake.esp",
+    "path": "/DB/OneHandedCurvedSword/include/21",
+    "op": "replace"
+  },
+  {
+    "value": "6AB85D:Skyrim.esm",
+    "path": "/DB/OneHandedCurvedSword/include/22",
+    "op": "replace"
+  },
+  {
+    "value": "0058D5:ArteFake.esp",
+    "path": "/DB/OneHandedCurvedSword/include/23",
+    "op": "replace"
+  },
+  {
+    "value": "008954:ArteFake.esp",
+    "path": "/DB/OneHandedCurvedSword/include/24",
+    "op": "replace"
+  },
+  {
+    "value": "06EA8B:Skyrim.esm",
+    "path": "/DB/OneHandedCurvedSword/include/25",
+    "op": "replace"
+  },
+  {
+    "value": "0F9648:Skyrim.esm",
+    "path": "/DB/OneHandedCurvedSword/include/26",
+    "op": "replace"
+  },
+  {
+    "value": "24EC9E:ArteFake.esp",
+    "path": "/DB/OneHandedCurvedSword/include/27",
+    "op": "replace"
+  },
+  {
+    "value": "000D62:Liliths Tools.esp",
+    "path": "/DB/OneHandedCurvedSword/include/28",
+    "op": "replace"
+  },
+  {
+    "value": "000905:Liliths Tools.esp",
+    "path": "/DB/OneHandedCurvedSword/include/29",
+    "op": "replace"
+  },
+  {
+    "value": "00094E:Liliths Tools.esp",
+    "path": "/DB/OneHandedCurvedSword/include/30",
+    "op": "replace"
+  },
+  {
+    "value": "000963:Liliths Tools.esp",
+    "path": "/DB/OneHandedCurvedSword/include/31",
+    "op": "replace"
+  },
+  {
+    "value": "00097B:Liliths Tools.esp",
+    "path": "/DB/OneHandedCurvedSword/include/32",
+    "op": "replace"
+  },
+  {
+    "value": "00097F:Liliths Tools.esp",
+    "path": "/DB/OneHandedCurvedSword/include/33",
+    "op": "add"
+  },
+  {
+    "value": "WeapTypeCurvedSword",
+    "path": "/DB/OneHandedCurvedSword/keyword/0",
+    "op": "replace"
+  },
+  {
+    "path": "/DB/OneHandedCurvedSword/keyword/1",
+    "op": "remove"
+  },
+  {
+    "value": "000D7D:DS3 Weapon Pack.esp",
+    "path": "/DB/Pike/include/4",
+    "op": "add"
+  },
+  {
+    "value": "WeapTypePike",
+    "path": "/DB/Pike/keyword/0",
+    "op": "replace"
+  },
+  {
+    "value": "NAR_Sig",
+    "path": "/DB/Pike/keyword/1",
+    "op": "replace"
+  },
+  {
+    "value": "WeapTypePoleaxe",
+    "path": "/DB/Poleaxe/keyword/0",
+    "op": "replace"
+  },
+  {
+    "path": "/DB/Poleaxe/keyword/2",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Poleaxe/keyword/1",
+    "op": "remove"
+  },
+  {
+    "value": "WeapTypeQtrStaff",
+    "path": "/DB/Quarterstaff/keyword/0",
+    "op": "replace"
+  },
+  {
+    "value": "WeapTypeQuarterstaff",
+    "path": "/DB/Quarterstaff/keyword/1",
+    "op": "replace"
+  },
+  {
+    "path": "/DB/Quarterstaff/keyword/2",
+    "op": "remove"
+  },
+  {
+    "value": "WeapTypeRapier",
+    "path": "/DB/Rapier/keyword/0",
+    "op": "replace"
+  },
+  {
+    "path": "/DB/Rapier/keyword/1",
+    "op": "remove"
+  },
+  {
+    "value": "WeapTypeScythe",
+    "path": "/DB/Scythe/keyword/0",
+    "op": "replace"
+  },
+  {
+    "path": "/DB/Scythe/keyword/1",
+    "op": "remove"
+  },
+  {
+    "value": "WeapTypeSpear",
+    "path": "/DB/Shortspear/keyword/0",
+    "op": "replace"
+  },
+  {
+    "value": "WeapTypeShortspear",
+    "path": "/DB/Shortspear/keyword/1",
+    "op": "replace"
+  },
+  {
+    "path": "/DB/Shortspear/keyword/2",
+    "op": "remove"
+  },
+  {
+    "value": "WeapTypeShortsword",
+    "path": "/DB/Shortsword/keyword/0",
+    "op": "replace"
+  },
+  {
+    "path": "/DB/Shortsword/keyword/1",
+    "op": "remove"
+  },
+  {
+    "value": "00D06C:DS3 Weapon Pack.esp",
+    "path": "/DB/Spear/exclude/4",
+    "op": "replace"
+  },
+  {
+    "value": "0246A9:DS3 Weapon Pack.esp",
+    "path": "/DB/Spear/exclude/5",
+    "op": "replace"
+  },
+  {
+    "value": "00095F:Liliths Tools.esp",
+    "path": "/DB/Spear/exclude/6",
+    "op": "replace"
+  },
+  {
+    "value": "000A04:Liliths Tools.esp",
+    "path": "/DB/Spear/exclude/7",
+    "op": "replace"
+  },
+  {
+    "value": "000A2A:Liliths Tools.esp",
+    "path": "/DB/Spear/exclude/8",
+    "op": "add"
+  },
+  {
+    "value": "000A2E:Liliths Tools.esp",
+    "path": "/DB/Spear/exclude/9",
+    "op": "add"
+  },
+  {
+    "value": "shortspear",
+    "path": "/DB/Spear/excludeNames/0",
+    "op": "add"
+  },
+  {
+    "value": "short spear",
+    "path": "/DB/Spear/excludeNames/1",
+    "op": "add"
+  },
+  {
+    "value": "short-spear",
+    "path": "/DB/Spear/excludeNames/2",
+    "op": "add"
+  },
+  {
+    "value": "WeapTypeSpear",
+    "path": "/DB/Spear/keyword/0",
+    "op": "replace"
+  },
+  {
+    "path": "/DB/Spear/keyword/1",
+    "op": "remove"
+  },
+  {
+    "value": "010E6C:Immersive Weapons.esp",
+    "path": "/DB/Trident/exclude/0",
+    "op": "add"
+  },
+  {
+    "value": "WeapTypePike",
+    "path": "/DB/Trident/keyword/0",
+    "op": "replace"
+  },
+  {
+    "value": "WeapTypeTrident",
+    "path": "/DB/Trident/keyword/1",
+    "op": "replace"
+  },
+  {
+    "path": "/DB/Trident/keyword/2",
+    "op": "remove"
+  },
+  {
+    "value": "02469A:DS3 Weapon Pack.esp",
+    "path": "/DB/TwoHandedCurvedSword/include/3",
+    "op": "replace"
+  },
+  {
+    "value": "00B079:DS3 Weapon Pack.esp",
+    "path": "/DB/TwoHandedCurvedSword/include/4",
+    "op": "replace"
+  },
+  {
+    "value": "000D6F:Dark Souls Item Pack by Team TAL.esp",
+    "path": "/DB/TwoHandedCurvedSword/include/5",
+    "op": "replace"
+  },
+  {
+    "value": "000909:Liliths Tools.esp",
+    "path": "/DB/TwoHandedCurvedSword/include/6",
+    "op": "replace"
+  },
+  {
+    "value": "00094C:Liliths Tools.esp",
+    "path": "/DB/TwoHandedCurvedSword/include/7",
+    "op": "replace"
+  },
+  {
+    "value": "000808:Liliths Tools.esp",
+    "path": "/DB/TwoHandedCurvedSword/include/8",
+    "op": "replace"
+  },
+  {
+    "value": "000806:Liliths Tools.esp",
+    "path": "/DB/TwoHandedCurvedSword/include/9",
+    "op": "replace"
+  },
+  {
+    "value": "00080A:Liliths Tools.esp",
+    "path": "/DB/TwoHandedCurvedSword/include/10",
+    "op": "replace"
+  },
+  {
+    "value": "000973:Liliths Tools.esp",
+    "path": "/DB/TwoHandedCurvedSword/include/11",
+    "op": "replace"
+  },
+  {
+    "value": "000977:Liliths Tools.esp",
+    "path": "/DB/TwoHandedCurvedSword/include/12",
+    "op": "add"
+  },
+  {
+    "value": "00096F:Liliths Tools.esp",
+    "path": "/DB/TwoHandedCurvedSword/include/13",
+    "op": "add"
+  },
+  {
+    "value": "WeapTypeWhip",
+    "path": "/DB/Whip/keyword/0",
+    "op": "replace"
+  },
+  {
+    "path": "/DB/Whip/keyword/1",
+    "op": "remove"
+  },
+  {
+    "value": 4,
+    "path": "/DBVer",
+    "op": "replace"
+  },
+  {
+    "value": "077787:Update.esm",
+    "path": "/InjectedKeywords/WeapTypeTrident",
+    "op": "add"
+  }
+]
