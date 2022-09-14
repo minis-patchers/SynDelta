@@ -1,0 +1,838 @@
+[
+  {
+    "path": "/DB/Claw/IgnoreWATOverrides",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Claw/WATModOverride",
+    "op": "remove"
+  },
+  {
+    "value": "RightHand",
+    "path": "/DB/Claw/EQType",
+    "op": "add"
+  },
+  {
+    "value": [],
+    "path": "/DB/Claw/ModOverrides",
+    "op": "add"
+  },
+  {
+    "value": [
+      {
+        "Contains": "Left",
+        "EQType": "LeftHand"
+      }
+    ],
+    "path": "/DB/Claw/NameOverrides",
+    "op": "add"
+  },
+  {
+    "value": [],
+    "path": "/DB/Claw/Script",
+    "op": "add"
+  },
+  {
+    "path": "/DB/Club/IgnoreWATOverrides",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Club/WATModOverride",
+    "op": "remove"
+  },
+  {
+    "value": "BothHands",
+    "path": "/DB/Club/EQType",
+    "op": "add"
+  },
+  {
+    "value": [],
+    "path": "/DB/Club/ModOverrides",
+    "op": "add"
+  },
+  {
+    "value": [],
+    "path": "/DB/Club/NameOverrides",
+    "op": "add"
+  },
+  {
+    "value": [],
+    "path": "/DB/Club/Script",
+    "op": "add"
+  },
+  {
+    "path": "/DB/Dai-Katana/IgnoreWATOverrides",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Dai-Katana/WATModOverride",
+    "op": "remove"
+  },
+  {
+    "value": "BothHands",
+    "path": "/DB/Dai-Katana/EQType",
+    "op": "add"
+  },
+  {
+    "value": [],
+    "path": "/DB/Dai-Katana/ModOverrides",
+    "op": "add"
+  },
+  {
+    "value": [],
+    "path": "/DB/Dai-Katana/NameOverrides",
+    "op": "add"
+  },
+  {
+    "value": [],
+    "path": "/DB/Dai-Katana/Script",
+    "op": "add"
+  },
+  {
+    "path": "/DB/Glaive/IgnoreWATOverrides",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Glaive/WATModOverride",
+    "op": "remove"
+  },
+  {
+    "value": "BothHands",
+    "path": "/DB/Glaive/EQType",
+    "op": "add"
+  },
+  {
+    "value": [],
+    "path": "/DB/Glaive/ModOverrides",
+    "op": "add"
+  },
+  {
+    "value": [],
+    "path": "/DB/Glaive/NameOverrides",
+    "op": "add"
+  },
+  {
+    "value": [],
+    "path": "/DB/Glaive/Script",
+    "op": "add"
+  },
+  {
+    "path": "/DB/Gun/IgnoreWATOverrides",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Gun/WATModOverride",
+    "op": "remove"
+  },
+  {
+    "value": "EitherHand",
+    "path": "/DB/Gun/EQType",
+    "op": "add"
+  },
+  {
+    "value": [],
+    "path": "/DB/Gun/ModOverrides",
+    "op": "add"
+  },
+  {
+    "value": [],
+    "path": "/DB/Gun/NameOverrides",
+    "op": "add"
+  },
+  {
+    "value": [],
+    "path": "/DB/Gun/Script",
+    "op": "add"
+  },
+  {
+    "path": "/DB/Halberd/IgnoreWATOverrides",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Halberd/WATModOverride",
+    "op": "remove"
+  },
+  {
+    "value": "BothHands",
+    "path": "/DB/Halberd/EQType",
+    "op": "add"
+  },
+  {
+    "value": [],
+    "path": "/DB/Halberd/ModOverrides",
+    "op": "add"
+  },
+  {
+    "value": [],
+    "path": "/DB/Halberd/NameOverrides",
+    "op": "add"
+  },
+  {
+    "value": [],
+    "path": "/DB/Halberd/Script",
+    "op": "add"
+  },
+  {
+    "path": "/DB/HalfPike/IgnoreWATOverrides",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/HalfPike/WATModOverride",
+    "op": "remove"
+  },
+  {
+    "value": "BothHands",
+    "path": "/DB/HalfPike/EQType",
+    "op": "add"
+  },
+  {
+    "value": [],
+    "path": "/DB/HalfPike/ModOverrides",
+    "op": "add"
+  },
+  {
+    "value": [],
+    "path": "/DB/HalfPike/NameOverrides",
+    "op": "add"
+  },
+  {
+    "value": [],
+    "path": "/DB/HalfPike/Script",
+    "op": "add"
+  },
+  {
+    "path": "/DB/Hatchet/IgnoreWATOverrides",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Hatchet/WATModOverride",
+    "op": "remove"
+  },
+  {
+    "value": "EitherHand",
+    "path": "/DB/Hatchet/EQType",
+    "op": "add"
+  },
+  {
+    "value": [],
+    "path": "/DB/Hatchet/ModOverrides",
+    "op": "add"
+  },
+  {
+    "value": [],
+    "path": "/DB/Hatchet/NameOverrides",
+    "op": "add"
+  },
+  {
+    "value": [],
+    "path": "/DB/Hatchet/Script",
+    "op": "add"
+  },
+  {
+    "path": "/DB/Javelin/IgnoreWATOverrides",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Javelin/WATModOverride",
+    "op": "remove"
+  },
+  {
+    "value": "RightHand",
+    "path": "/DB/Javelin/EQType",
+    "op": "add"
+  },
+  {
+    "value": [],
+    "path": "/DB/Javelin/ModOverrides",
+    "op": "add"
+  },
+  {
+    "value": [],
+    "path": "/DB/Javelin/NameOverrides",
+    "op": "add"
+  },
+  {
+    "value": [],
+    "path": "/DB/Javelin/Script",
+    "op": "add"
+  },
+  {
+    "path": "/DB/Katana/IgnoreWATOverrides",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Katana/WATModOverride",
+    "op": "remove"
+  },
+  {
+    "value": "EitherHand",
+    "path": "/DB/Katana/EQType",
+    "op": "add"
+  },
+  {
+    "value": [],
+    "path": "/DB/Katana/ModOverrides",
+    "op": "add"
+  },
+  {
+    "value": [],
+    "path": "/DB/Katana/NameOverrides",
+    "op": "add"
+  },
+  {
+    "value": [],
+    "path": "/DB/Katana/Script",
+    "op": "add"
+  },
+  {
+    "value": "00092A:Dark Souls Item Pack by Team TAL.esp",
+    "path": "/DB/Katana/include/12",
+    "op": "replace"
+  },
+  {
+    "value": "00086C:BB Pack by Team TAL.esp",
+    "path": "/DB/Katana/include/13",
+    "op": "replace"
+  },
+  {
+    "value": "000880:BB Pack by Team TAL.esp",
+    "path": "/DB/Katana/include/14",
+    "op": "replace"
+  },
+  {
+    "value": "010E6C:Immersive Weapons.esp",
+    "path": "/DB/Katana/include/15",
+    "op": "replace"
+  },
+  {
+    "value": "000817:PrvtIRoyalArmory.esp",
+    "path": "/DB/Katana/include/16",
+    "op": "replace"
+  },
+  {
+    "path": "/DB/Katana/include/17",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Maul/IgnoreWATOverrides",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Maul/WATModOverride",
+    "op": "remove"
+  },
+  {
+    "value": "BothHands",
+    "path": "/DB/Maul/EQType",
+    "op": "add"
+  },
+  {
+    "value": [],
+    "path": "/DB/Maul/ModOverrides",
+    "op": "add"
+  },
+  {
+    "value": [],
+    "path": "/DB/Maul/NameOverrides",
+    "op": "add"
+  },
+  {
+    "value": [],
+    "path": "/DB/Maul/Script",
+    "op": "add"
+  },
+  {
+    "path": "/DB/OneHandedCurvedSword/IgnoreWATOverrides",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/OneHandedCurvedSword/WATModOverride",
+    "op": "remove"
+  },
+  {
+    "value": "EitherHand",
+    "path": "/DB/OneHandedCurvedSword/EQType",
+    "op": "add"
+  },
+  {
+    "value": [],
+    "path": "/DB/OneHandedCurvedSword/ModOverrides",
+    "op": "add"
+  },
+  {
+    "value": [],
+    "path": "/DB/OneHandedCurvedSword/NameOverrides",
+    "op": "add"
+  },
+  {
+    "value": [],
+    "path": "/DB/OneHandedCurvedSword/Script",
+    "op": "add"
+  },
+  {
+    "value": "000D62:Liliths Tools.esp",
+    "path": "/DB/OneHandedCurvedSword/include/27",
+    "op": "add"
+  },
+  {
+    "value": "000905:Liliths Tools.esp",
+    "path": "/DB/OneHandedCurvedSword/include/28",
+    "op": "add"
+  },
+  {
+    "value": "00094E:Liliths Tools.esp",
+    "path": "/DB/OneHandedCurvedSword/include/29",
+    "op": "add"
+  },
+  {
+    "value": "000963:Liliths Tools.esp",
+    "path": "/DB/OneHandedCurvedSword/include/30",
+    "op": "add"
+  },
+  {
+    "value": "00097B:Liliths Tools.esp",
+    "path": "/DB/OneHandedCurvedSword/include/31",
+    "op": "add"
+  },
+  {
+    "value": "00097F:Liliths Tools.esp",
+    "path": "/DB/OneHandedCurvedSword/include/32",
+    "op": "add"
+  },
+  {
+    "path": "/DB/Pike/IgnoreWATOverrides",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Pike/WATModOverride",
+    "op": "remove"
+  },
+  {
+    "value": "BothHands",
+    "path": "/DB/Pike/EQType",
+    "op": "add"
+  },
+  {
+    "value": [],
+    "path": "/DB/Pike/ModOverrides",
+    "op": "add"
+  },
+  {
+    "value": [],
+    "path": "/DB/Pike/NameOverrides",
+    "op": "add"
+  },
+  {
+    "value": [],
+    "path": "/DB/Pike/Script",
+    "op": "add"
+  },
+  {
+    "value": "00095F:Liliths Tools.esp",
+    "path": "/DB/Pike/include/0",
+    "op": "add"
+  },
+  {
+    "value": "000A04:Liliths Tools.esp",
+    "path": "/DB/Pike/include/1",
+    "op": "add"
+  },
+  {
+    "value": "000A2A:Liliths Tools.esp",
+    "path": "/DB/Pike/include/2",
+    "op": "add"
+  },
+  {
+    "value": "000A2E:Liliths Tools.esp",
+    "path": "/DB/Pike/include/3",
+    "op": "add"
+  },
+  {
+    "path": "/DB/Poleaxe/IgnoreWATOverrides",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Poleaxe/WATModOverride",
+    "op": "remove"
+  },
+  {
+    "value": "BothHands",
+    "path": "/DB/Poleaxe/EQType",
+    "op": "add"
+  },
+  {
+    "value": [],
+    "path": "/DB/Poleaxe/ModOverrides",
+    "op": "add"
+  },
+  {
+    "value": [],
+    "path": "/DB/Poleaxe/Script",
+    "op": "add"
+  },
+  {
+    "path": "/DB/Quarterstaff/IgnoreWATOverrides",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Quarterstaff/WATModOverride",
+    "op": "remove"
+  },
+  {
+    "value": "BothHands",
+    "path": "/DB/Quarterstaff/EQType",
+    "op": "add"
+  },
+  {
+    "value": [],
+    "path": "/DB/Quarterstaff/ModOverrides",
+    "op": "add"
+  },
+  {
+    "value": [],
+    "path": "/DB/Quarterstaff/NameOverrides",
+    "op": "add"
+  },
+  {
+    "value": [],
+    "path": "/DB/Quarterstaff/Script",
+    "op": "add"
+  },
+  {
+    "path": "/DB/Rapier/IgnoreWATOverrides",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Rapier/WATModOverride",
+    "op": "remove"
+  },
+  {
+    "value": "EitherHand",
+    "path": "/DB/Rapier/EQType",
+    "op": "add"
+  },
+  {
+    "value": [],
+    "path": "/DB/Rapier/ModOverrides",
+    "op": "add"
+  },
+  {
+    "value": [],
+    "path": "/DB/Rapier/NameOverrides",
+    "op": "add"
+  },
+  {
+    "value": [],
+    "path": "/DB/Rapier/Script",
+    "op": "add"
+  },
+  {
+    "value": "000852:Liliths Tools.esp",
+    "path": "/DB/Rapier/include/8",
+    "op": "add"
+  },
+  {
+    "value": "00085A:Liliths Tools.esp",
+    "path": "/DB/Rapier/include/9",
+    "op": "add"
+  },
+  {
+    "value": "000877:Liliths Tools.esp",
+    "path": "/DB/Rapier/include/10",
+    "op": "add"
+  },
+  {
+    "value": "00087F:Liliths Tools.esp",
+    "path": "/DB/Rapier/include/11",
+    "op": "add"
+  },
+  {
+    "value": "000854:Liliths Tools.esp",
+    "path": "/DB/Rapier/include/12",
+    "op": "add"
+  },
+  {
+    "value": "00085D:Liliths Tools.esp",
+    "path": "/DB/Rapier/include/13",
+    "op": "add"
+  },
+  {
+    "value": "000879:Liliths Tools.esp",
+    "path": "/DB/Rapier/include/14",
+    "op": "add"
+  },
+  {
+    "value": "000883:Liliths Tools.esp",
+    "path": "/DB/Rapier/include/15",
+    "op": "add"
+  },
+  {
+    "path": "/DB/Scythe/IgnoreWATOverrides",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Scythe/WATModOverride",
+    "op": "remove"
+  },
+  {
+    "value": "BothHands",
+    "path": "/DB/Scythe/EQType",
+    "op": "add"
+  },
+  {
+    "value": [],
+    "path": "/DB/Scythe/ModOverrides",
+    "op": "add"
+  },
+  {
+    "value": [],
+    "path": "/DB/Scythe/NameOverrides",
+    "op": "add"
+  },
+  {
+    "value": [],
+    "path": "/DB/Scythe/Script",
+    "op": "add"
+  },
+  {
+    "value": "sickle",
+    "path": "/DB/Scythe/commonNames/1",
+    "op": "add"
+  },
+  {
+    "path": "/DB/Shortspear/IgnoreWATOverrides",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Shortspear/WATModOverride",
+    "op": "remove"
+  },
+  {
+    "value": "RightHand",
+    "path": "/DB/Shortspear/EQType",
+    "op": "add"
+  },
+  {
+    "value": [],
+    "path": "/DB/Shortspear/ModOverrides",
+    "op": "add"
+  },
+  {
+    "value": [],
+    "path": "/DB/Shortspear/NameOverrides",
+    "op": "add"
+  },
+  {
+    "value": [],
+    "path": "/DB/Shortspear/Script",
+    "op": "add"
+  },
+  {
+    "path": "/DB/Shortsword/IgnoreWATOverrides",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Shortsword/WATModOverride",
+    "op": "remove"
+  },
+  {
+    "value": "EitherHand",
+    "path": "/DB/Shortsword/EQType",
+    "op": "add"
+  },
+  {
+    "value": [],
+    "path": "/DB/Shortsword/ModOverrides",
+    "op": "add"
+  },
+  {
+    "value": [],
+    "path": "/DB/Shortsword/NameOverrides",
+    "op": "add"
+  },
+  {
+    "value": [],
+    "path": "/DB/Shortsword/Script",
+    "op": "add"
+  },
+  {
+    "path": "/DB/Spear/IgnoreWATOverrides",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Spear/WATModOverride",
+    "op": "remove"
+  },
+  {
+    "value": "RightHand",
+    "path": "/DB/Spear/EQType",
+    "op": "add"
+  },
+  {
+    "value": [],
+    "path": "/DB/Spear/ModOverrides",
+    "op": "add"
+  },
+  {
+    "value": [
+      {
+        "Requires": "SkyrimSpearMechanic.esp",
+        "ScriptName": "SSM_WeaponScript",
+        "Properties": {
+          "SSM_Quest": "0012CA:SkyrimSpearMechanic.esp"
+        }
+      }
+    ],
+    "path": "/DB/Spear/Script",
+    "op": "add"
+  },
+  {
+    "value": "00095F:Liliths Tools.esp",
+    "path": "/DB/Spear/exclude/4",
+    "op": "add"
+  },
+  {
+    "value": "000A04:Liliths Tools.esp",
+    "path": "/DB/Spear/exclude/5",
+    "op": "add"
+  },
+  {
+    "value": "000A2A:Liliths Tools.esp",
+    "path": "/DB/Spear/exclude/6",
+    "op": "add"
+  },
+  {
+    "value": "000A2E:Liliths Tools.esp",
+    "path": "/DB/Spear/exclude/7",
+    "op": "add"
+  },
+  {
+    "path": "/DB/Trident/IgnoreWATOverrides",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Trident/WATModOverride",
+    "op": "remove"
+  },
+  {
+    "value": "BothHands",
+    "path": "/DB/Trident/EQType",
+    "op": "add"
+  },
+  {
+    "value": [],
+    "path": "/DB/Trident/ModOverrides",
+    "op": "add"
+  },
+  {
+    "value": [],
+    "path": "/DB/Trident/NameOverrides",
+    "op": "add"
+  },
+  {
+    "value": [],
+    "path": "/DB/Trident/Script",
+    "op": "add"
+  },
+  {
+    "path": "/DB/TwoHandedCurvedSword/IgnoreWATOverrides",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/TwoHandedCurvedSword/WATModOverride",
+    "op": "remove"
+  },
+  {
+    "value": "BothHands",
+    "path": "/DB/TwoHandedCurvedSword/EQType",
+    "op": "add"
+  },
+  {
+    "value": [],
+    "path": "/DB/TwoHandedCurvedSword/ModOverrides",
+    "op": "add"
+  },
+  {
+    "value": [],
+    "path": "/DB/TwoHandedCurvedSword/NameOverrides",
+    "op": "add"
+  },
+  {
+    "value": [],
+    "path": "/DB/TwoHandedCurvedSword/Script",
+    "op": "add"
+  },
+  {
+    "value": "000909:Liliths Tools.esp",
+    "path": "/DB/TwoHandedCurvedSword/include/4",
+    "op": "add"
+  },
+  {
+    "value": "00094C:Liliths Tools.esp",
+    "path": "/DB/TwoHandedCurvedSword/include/5",
+    "op": "add"
+  },
+  {
+    "value": "000808:Liliths Tools.esp",
+    "path": "/DB/TwoHandedCurvedSword/include/6",
+    "op": "add"
+  },
+  {
+    "value": "000806:Liliths Tools.esp",
+    "path": "/DB/TwoHandedCurvedSword/include/7",
+    "op": "add"
+  },
+  {
+    "value": "00080A:Liliths Tools.esp",
+    "path": "/DB/TwoHandedCurvedSword/include/8",
+    "op": "add"
+  },
+  {
+    "value": "000973:Liliths Tools.esp",
+    "path": "/DB/TwoHandedCurvedSword/include/9",
+    "op": "add"
+  },
+  {
+    "value": "000977:Liliths Tools.esp",
+    "path": "/DB/TwoHandedCurvedSword/include/10",
+    "op": "add"
+  },
+  {
+    "value": "00096F:Liliths Tools.esp",
+    "path": "/DB/TwoHandedCurvedSword/include/11",
+    "op": "add"
+  },
+  {
+    "path": "/DB/Whip/IgnoreWATOverrides",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Whip/WATModOverride",
+    "op": "remove"
+  },
+  {
+    "value": "EitherHand",
+    "path": "/DB/Whip/EQType",
+    "op": "add"
+  },
+  {
+    "value": [],
+    "path": "/DB/Whip/ModOverrides",
+    "op": "add"
+  },
+  {
+    "value": [],
+    "path": "/DB/Whip/NameOverrides",
+    "op": "add"
+  },
+  {
+    "value": [],
+    "path": "/DB/Whip/Script",
+    "op": "add"
+  },
+  {
+    "value": 18,
+    "path": "/DBPatchVer",
+    "op": "replace"
+  }
+]
