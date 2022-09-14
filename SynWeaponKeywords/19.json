@@ -30,10 +30,6 @@
     "op": "add"
   },
   {
-    "path": "/DB/Spear/Script/0/Properties",
-    "op": "remove"
-  },
-  {
     "value": {
       "SSM_Quest": "0012CA:SkyrimSpearMechanic.esp"
     },
