@@ -1,0 +1,384 @@
+[
+  {
+    "path": "/DB/Claw/Animation",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Claw/EQType",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Claw/ModOverrides",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Claw/NameOverrides",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Club/Animation",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Club/EQType",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Club/ModOverrides",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Club/NameOverrides",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Dai-Katana/Animation",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Dai-Katana/EQType",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Dai-Katana/ModOverrides",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Dai-Katana/NameOverrides",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Glaive/Animation",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Glaive/EQType",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Glaive/ModOverrides",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Glaive/NameOverrides",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Gun/Animation",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Gun/EQType",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Gun/excludeNames",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Gun/ModOverrides",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Gun/NameOverrides",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Halberd/Animation",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Halberd/EQType",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Halberd/ModOverrides",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Halberd/NameOverrides",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/HalfPike/Animation",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/HalfPike/EQType",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/HalfPike/ModOverrides",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/HalfPike/NameOverrides",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Hatchet/Animation",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Hatchet/EQType",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Hatchet/ModOverrides",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Hatchet/NameOverrides",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Javelin/Animation",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Javelin/EQType",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Javelin/ModOverrides",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Javelin/NameOverrides",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Katana/Animation",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Katana/EQType",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Katana/ModOverrides",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Katana/NameOverrides",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Maul/Animation",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Maul/EQType",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Maul/ModOverrides",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Maul/NameOverrides",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/OneHandedCurvedSword/Animation",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/OneHandedCurvedSword/EQType",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/OneHandedCurvedSword/ModOverrides",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/OneHandedCurvedSword/NameOverrides",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Pike/Animation",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Pike/EQType",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Pike/ModOverrides",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Pike/NameOverrides",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Poleaxe/Animation",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Poleaxe/EQType",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Poleaxe/ModOverrides",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Poleaxe/NameOverrides",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Quarterstaff/Animation",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Quarterstaff/EQType",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Quarterstaff/ModOverrides",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Quarterstaff/NameOverrides",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Rapier/Animation",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Rapier/EQType",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Rapier/ModOverrides",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Rapier/NameOverrides",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Scythe/Animation",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Scythe/EQType",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Scythe/ModOverrides",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Scythe/NameOverrides",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Shortspear/Animation",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Shortspear/EQType",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Shortspear/ModOverrides",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Shortspear/NameOverrides",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Shortsword/Animation",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Shortsword/EQType",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Shortsword/ModOverrides",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Shortsword/NameOverrides",
+    "op": "remove"
+  },
+  {
+    "value": "a shortsword",
+    "path": "/DB/Shortsword/outputDescription",
+    "op": "replace"
+  },
+  {
+    "path": "/DB/Spear/Animation",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Spear/EQType",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Spear/ModOverrides",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Spear/NameOverrides",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Trident/Animation",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Trident/EQType",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Trident/ModOverrides",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Trident/NameOverrides",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/TwoHandedCurvedSword/Animation",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/TwoHandedCurvedSword/EQType",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/TwoHandedCurvedSword/ModOverrides",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/TwoHandedCurvedSword/NameOverrides",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Whip/Animation",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Whip/EQType",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Whip/ModOverrides",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Whip/NameOverrides",
+    "op": "remove"
+  },
+  {
+    "value": 5,
+    "path": "/DBVer",
+    "op": "replace"
+  }
+]
