@@ -522,7 +522,16 @@
         "whip"
       ],
       "EQType": "RightHand",
-      "NameOverrides": [],
+      "NameOverrides": [
+        {
+          "Contains": "Bound Whip Dual",
+          "EQType": "LeftHand"
+        },
+        {
+          "Contains": "Bound Whip",
+          "EQType": "EitherHand"
+        }
+      ],
       "excludeNames": [],
       "outputDescription": "a whip",
       "Animation": "OneHandMace",
@@ -703,5 +712,5 @@
     "WeapTypeQtrStaff": "077785:Update.esm",
     "WeapTypeCurvedSword": "077786:Update.esm"
   },
-  "DBVer": 2
+  "DBVer": 3
 }
