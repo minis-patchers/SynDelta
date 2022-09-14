@@ -1,0 +1,177 @@
+[
+  {
+    "value": "00B031:DS3 Weapon Pack.esp",
+    "path": "/DB/Claw/include/0",
+    "op": "add"
+  },
+  {
+    "value": "00B032:DS3 Weapon Pack.esp",
+    "path": "/DB/Claw/include/1",
+    "op": "add"
+  },
+  {
+    "value": "86D:BB Pack by Team TAL.esp",
+    "path": "/DB/Dai-Katana/include/3",
+    "op": "add"
+  },
+  {
+    "value": "00B090:DS3 Weapon Pack.esp",
+    "path": "/DB/Halberd/include/0",
+    "op": "add"
+  },
+  {
+    "value": "935:Dark Souls Item Pack by Team TAL.esp",
+    "path": "/DB/Halberd/include/1",
+    "op": "add"
+  },
+  {
+    "value": "00B091:DS3 Weapon Pack.esp",
+    "path": "/DB/Katana/include/10",
+    "op": "add"
+  },
+  {
+    "value": "000D9B:DS3 Weapon Pack.esp",
+    "path": "/DB/Katana/include/11",
+    "op": "add"
+  },
+  {
+    "value": "00B012:DS3 Weapon Pack.esp",
+    "path": "/DB/Katana/include/12",
+    "op": "add"
+  },
+  {
+    "value": "92B::Dark Souls Item Pack by Team TAL.esp",
+    "path": "/DB/Katana/include/13",
+    "op": "add"
+  },
+  {
+    "value": "86C:BB Pack by Team TAL.esp",
+    "path": "/DB/Katana/include/14",
+    "op": "add"
+  },
+  {
+    "value": "880:BB Pack by Team TAL.esp",
+    "path": "/DB/Katana/include/15",
+    "op": "add"
+  },
+  {
+    "value": "010E6C:Immersive Weapons.esp",
+    "path": "/DB/Katana/include/16",
+    "op": "add"
+  },
+  {
+    "value": "00AFF5:DS3 Weapon Pack.esp",
+    "path": "/DB/OneHandedCurvedSword/include/0",
+    "op": "add"
+  },
+  {
+    "value": "00AAF8:DS3 Weapon Pack.esp",
+    "path": "/DB/OneHandedCurvedSword/include/1",
+    "op": "add"
+  },
+  {
+    "value": "00AFFB:DS3 Weapon Pack.esp",
+    "path": "/DB/OneHandedCurvedSword/include/2",
+    "op": "add"
+  },
+  {
+    "value": "00AFFC:DS3 Weapon Pack.esp",
+    "path": "/DB/OneHandedCurvedSword/include/3",
+    "op": "add"
+  },
+  {
+    "value": "00AFF3:DS3 Weapon Pack.esp",
+    "path": "/DB/OneHandedCurvedSword/include/4",
+    "op": "add"
+  },
+  {
+    "value": "00AFF4:DS3 Weapon Pack.esp",
+    "path": "/DB/OneHandedCurvedSword/include/5",
+    "op": "add"
+  },
+  {
+    "value": "0101DD:DS3 Weapon Pack.esp",
+    "path": "/DB/OneHandedCurvedSword/include/6",
+    "op": "add"
+  },
+  {
+    "value": "000D72:DS3 Weapon Pack.esp",
+    "path": "/DB/OneHandedCurvedSword/include/7",
+    "op": "add"
+  },
+  {
+    "value": "000D89:DS3 Weapon Pack.esp",
+    "path": "/DB/OneHandedCurvedSword/include/8",
+    "op": "add"
+  },
+  {
+    "value": "8F4:Dark Souls Item Pack by Team TAL.esp",
+    "path": "/DB/OneHandedCurvedSword/include/9",
+    "op": "add"
+  },
+  {
+    "value": "8F5:Dark Souls Item Pack by Team TAL.esp",
+    "path": "/DB/OneHandedCurvedSword/include/10",
+    "op": "add"
+  },
+  {
+    "value": "8F6:Dark Souls Item Pack by Team TAL.esp",
+    "path": "/DB/OneHandedCurvedSword/include/11",
+    "op": "add"
+  },
+  {
+    "value": "0246B1:DS3 Weapon Pack.esp",
+    "path": "/DB/Rapier/include/2",
+    "op": "add"
+  },
+  {
+    "value": "91A:Dark Souls Item Pack by Team TAL.esp",
+    "path": "/DB/Rapier/include/3",
+    "op": "add"
+  },
+  {
+    "value": "87D:BB Pack by Team TAL.esp",
+    "path": "/DB/Rapier/include/4",
+    "op": "add"
+  },
+  {
+    "value": "881:BB Pack by Team TAL.esp",
+    "path": "/DB/Rapier/include/5",
+    "op": "add"
+  },
+  {
+    "value": "008863:Immersive Weapons.esp",
+    "path": "/DB/Rapier/include/6",
+    "op": "add"
+  },
+  {
+    "value": "096D63:Immersive Weapons.esp",
+    "path": "/DB/Scythe/exclude/3",
+    "op": "add"
+  },
+  {
+    "value": "0101DE:DS3 Weapon Pack.esp",
+    "path": "/DB/TwoHandedCurvedSword/include/0",
+    "op": "add"
+  },
+  {
+    "value": "000F70:DS3 Weapon Pack.esp",
+    "path": "/DB/TwoHandedCurvedSword/include/1",
+    "op": "add"
+  },
+  {
+    "value": "00B078:DS3 Weapon Pack.esp",
+    "path": "/DB/TwoHandedCurvedSword/include/2",
+    "op": "add"
+  },
+  {
+    "value": "D6F:Dark Souls Item Pack by Team TAL.esp",
+    "path": "/DB/TwoHandedCurvedSword/include/3",
+    "op": "add"
+  },
+  {
+    "value": 12,
+    "path": "/DBPatchVer",
+    "op": "replace"
+  }
+]
