@@ -1,0 +1,147 @@
+[
+  {
+    "value": "000935:Dark Souls Item Pack by Team TAL.esp",
+    "path": "/DB/Halberd/include/1",
+    "op": "replace"
+  },
+  {
+    "value": "00092B::Dark Souls Item Pack by Team TAL.esp",
+    "path": "/DB/Katana/include/13",
+    "op": "replace"
+  },
+  {
+    "value": "00086C:BB Pack by Team TAL.esp",
+    "path": "/DB/Katana/include/14",
+    "op": "replace"
+  },
+  {
+    "value": "000880:BB Pack by Team TAL.esp",
+    "path": "/DB/Katana/include/15",
+    "op": "replace"
+  },
+  {
+    "value": "000817:PrvtIRoyalArmory.esp",
+    "path": "/DB/Katana/include/17",
+    "op": "add"
+  },
+  {
+    "value": "0008F4:Dark Souls Item Pack by Team TAL.esp",
+    "path": "/DB/OneHandedCurvedSword/include/9",
+    "op": "replace"
+  },
+  {
+    "value": "0008F5:Dark Souls Item Pack by Team TAL.esp",
+    "path": "/DB/OneHandedCurvedSword/include/10",
+    "op": "replace"
+  },
+  {
+    "value": "0008F6:Dark Souls Item Pack by Team TAL.esp",
+    "path": "/DB/OneHandedCurvedSword/include/11",
+    "op": "replace"
+  },
+  {
+    "value": "000811:PrvtIRoyalArmory.esp",
+    "path": "/DB/OneHandedCurvedSword/include/12",
+    "op": "add"
+  },
+  {
+    "value": "000830:Hammerfell Armory SE.esp",
+    "path": "/DB/OneHandedCurvedSword/include/13",
+    "op": "add"
+  },
+  {
+    "value": "000831:Hammerfell Armory SE.esp",
+    "path": "/DB/OneHandedCurvedSword/include/14",
+    "op": "add"
+  },
+  {
+    "value": "000832:Hammerfell Armory SE.esp",
+    "path": "/DB/OneHandedCurvedSword/include/15",
+    "op": "add"
+  },
+  {
+    "value": "018DDD:Dragonborn.esm",
+    "path": "/DB/OneHandedCurvedSword/include/16",
+    "op": "add"
+  },
+  {
+    "value": "037FF2:Dragonborn.esm",
+    "path": "/DB/OneHandedCurvedSword/include/17",
+    "op": "add"
+  },
+  {
+    "value": "036689:Dragonborn.esm",
+    "path": "/DB/OneHandedCurvedSword/include/18",
+    "op": "add"
+  },
+  {
+    "value": "037FF3:Dragonborn.esm",
+    "path": "/DB/OneHandedCurvedSword/include/19",
+    "op": "add"
+  },
+  {
+    "value": "193654:ArteFake.esp",
+    "path": "/DB/OneHandedCurvedSword/include/20",
+    "op": "add"
+  },
+  {
+    "value": "6AB85D:Skyrim.esm",
+    "path": "/DB/OneHandedCurvedSword/include/21",
+    "op": "add"
+  },
+  {
+    "value": "0058D5:ArteFake.esp",
+    "path": "/DB/OneHandedCurvedSword/include/22",
+    "op": "add"
+  },
+  {
+    "value": "008954:ArteFake.esp",
+    "path": "/DB/OneHandedCurvedSword/include/23",
+    "op": "add"
+  },
+  {
+    "value": "06EA8B:Skyrim.esm",
+    "path": "/DB/OneHandedCurvedSword/include/24",
+    "op": "add"
+  },
+  {
+    "value": "0F9648:Skyrim.esm",
+    "path": "/DB/OneHandedCurvedSword/include/25",
+    "op": "add"
+  },
+  {
+    "value": "24EC9E:ArteFake.esp",
+    "path": "/DB/OneHandedCurvedSword/include/26",
+    "op": "add"
+  },
+  {
+    "value": "00091A:Dark Souls Item Pack by Team TAL.esp",
+    "path": "/DB/Rapier/include/3",
+    "op": "replace"
+  },
+  {
+    "value": "00087D:BB Pack by Team TAL.esp",
+    "path": "/DB/Rapier/include/4",
+    "op": "replace"
+  },
+  {
+    "value": "000881:BB Pack by Team TAL.esp",
+    "path": "/DB/Rapier/include/5",
+    "op": "replace"
+  },
+  {
+    "value": "001E93:BladeOfIntrigue_SE_Eng.esp",
+    "path": "/DB/Rapier/include/7",
+    "op": "add"
+  },
+  {
+    "value": "000D6F:Dark Souls Item Pack by Team TAL.esp",
+    "path": "/DB/TwoHandedCurvedSword/include/3",
+    "op": "replace"
+  },
+  {
+    "value": 13,
+    "path": "/DBPatchVer",
+    "op": "replace"
+  }
+]
