@@ -1,0 +1,7 @@
+[
+  {
+    "value": 22,
+    "path": "/DBPatchVer",
+    "op": "replace"
+  }
+]
