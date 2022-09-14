@@ -677,10 +677,7 @@
     "value": [
       {
         "Requires": "SkyrimSpearMechanic.esp",
-        "ScriptName": "SSM_WeaponScript",
-        "Properties": {
-          "SSM_Quest": "0012CA:SkyrimSpearMechanic.esp"
-        }
+        "ScriptName": "SSM_WeaponScript"
       }
     ],
     "path": "/DB/Spear/Script",
