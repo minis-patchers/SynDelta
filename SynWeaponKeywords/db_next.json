@@ -430,6 +430,7 @@
       ],
       "outputDescription": "a gun",
       "Animation": "OneHandSword",
+      "excludeNames": [],
       "include": [],
       "exclude": [],
       "excludeSource": [],
@@ -626,5 +627,5 @@
     "WeapTypeCurvedSword": "077786:Update.esm",
     "WeapTypeTrident": "077787:Update.esm"
   },
-  "DBVer": 6
+  "DBVer": 7
 }

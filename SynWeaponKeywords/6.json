@@ -1,0 +1,12 @@
+[
+  {
+    "value": [],
+    "path": "/DB/Gun/excludeNames",
+    "op": "add"
+  },
+  {
+    "value": 7,
+    "path": "/DBVer",
+    "op": "replace"
+  }
+]
