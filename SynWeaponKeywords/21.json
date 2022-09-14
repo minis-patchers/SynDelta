@@ -1,5 +1,10 @@
 [
   {
+    "value": "0012CA:SkyrimSpearMechanic.esp",
+    "path": "/DB/Spear/Script/0/Objects/SSM_Quest",
+    "op": "replace"
+  },
+  {
     "value": 22,
     "path": "/DBPatchVer",
     "op": "replace"

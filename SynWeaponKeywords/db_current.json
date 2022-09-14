@@ -143,7 +143,7 @@
           "Requires": "SkyrimSpearMechanic.esp",
           "ScriptName": "SSM_WeaponScript",
           "Objects": {
-            "SSM_Quest": "000800:SkyrimSpearMechanic.esp"
+            "SSM_Quest": "0012CA:SkyrimSpearMechanic.esp"
           }
         }
       ]
@@ -703,5 +703,5 @@
     "WeapTypeQtrStaff": "077785:Update.esm",
     "WeapTypeCurvedSword": "077786:Update.esm"
   },
-  "DBPatchVer": 22
+  "DBPatchVer": 23
 }
