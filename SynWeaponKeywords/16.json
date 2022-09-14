@@ -1,0 +1,22 @@
+[
+  {
+    "value": "000D99:DS3 Weapon Pack.esp",
+    "path": "/DB/Halberd/include/2",
+    "op": "replace"
+  },
+  {
+    "value": "000D99:DS3 Weapon Pack.esp",
+    "path": "/DB/Spear/exclude/3",
+    "op": "replace"
+  },
+  {
+    "value": "0246A8:DS3 Weapon Pack.esp",
+    "path": "/DB/Spear/include/0",
+    "op": "add"
+  },
+  {
+    "value": 17,
+    "path": "/DBPatchVer",
+    "op": "replace"
+  }
+]
