@@ -9,7 +9,14 @@
       ],
       "excludeNames": [],
       "outputDescription": "a shortsword",
-      "Animation": "OneHandSword",
+      "Animation": {
+        "RightHand": "OneHandSword",
+        "LeftHand": "OneHandSword",
+        "EitherHand": "OneHandSword"
+      },
+      "AnimNameOverride": [],
+      "AnimModOverride": [],
+      "AnimItemOverride": [],
       "include": [],
       "exclude": [],
       "excludeSource": [],
@@ -30,7 +37,14 @@
       ],
       "excludeNames": [],
       "outputDescription": "a rapier",
-      "Animation": "OneHandSword",
+      "Animation": {
+        "RightHand": "OneHandSword",
+        "LeftHand": "OneHandSword",
+        "EitherHand": "OneHandSword"
+      },
+      "AnimNameOverride": [],
+      "AnimModOverride": [],
+      "AnimItemOverride": [],
       "include": [
         "000816:Immersive Weapons.esp",
         "000964:Immersive Weapons.esp",
@@ -64,7 +78,15 @@
         "lance"
       ],
       "excludeNames": [],
-      "Animation": "TwoHandSword",
+      "Animation": {
+        "RightHand": "OneHandSword",
+        "LeftHand": "OneHandSword",
+        "EitherHand": "OneHandSword",
+        "BothHands": "TwoHandSword"
+      },
+      "AnimNameOverride": [],
+      "AnimModOverride": [],
+      "AnimItemOverride": [],
       "outputDescription": "a pike",
       "include": [
         "00095F:Liliths Tools.esp",
@@ -87,8 +109,16 @@
         "half pike"
       ],
       "excludeNames": [],
-      "Animation": "TwoHandSword",
       "outputDescription": "a half pike",
+      "Animation": {
+        "RightHand": "OneHandSword",
+        "LeftHand": "OneHandSword",
+        "EitherHand": "OneHandSword",
+        "BothHands": "TwoHandSword"
+      },
+      "AnimNameOverride": [],
+      "AnimModOverride": [],
+      "AnimItemOverride": [],
       "include": [],
       "exclude": [],
       "excludeSource": [],
@@ -108,7 +138,15 @@
         "short-spear"
       ],
       "outputDescription": "a spear",
-      "Animation": "OneHandSword",
+      "Animation": {
+        "RightHand": "OneHandSword",
+        "LeftHand": "OneHandSword",
+        "EitherHand": "OneHandSword",
+        "BothHands": "TwoHandSword"
+      },
+      "AnimNameOverride": [],
+      "AnimModOverride": [],
+      "AnimItemOverride": [],
       "include": [
         "0246A8:DS3 Weapon Pack.esp"
       ],
@@ -128,6 +166,8 @@
       "excludeMod": [],
       "Script": [
         {
+          "ExcludeMods": [],
+          "ExcludeItems": [],
           "Requires": "SkyrimSpearMechanic.esp",
           "ScriptName": "SSM_WeaponScript",
           "Objects": {
@@ -148,7 +188,15 @@
       ],
       "excludeNames": [],
       "outputDescription": "a shortspear",
-      "Animation": "OneHandSword",
+      "Animation": {
+        "RightHand": "OneHandSword",
+        "LeftHand": "OneHandSword",
+        "EitherHand": "OneHandSword",
+        "BothHands": "TwoHandSword"
+      },
+      "AnimNameOverride": [],
+      "AnimModOverride": [],
+      "AnimItemOverride": [],
       "include": [],
       "exclude": [],
       "excludeSource": [],
@@ -162,9 +210,17 @@
       "commonNames": [
         "poleaxe"
       ],
-      "Animation": "TwoHandAxe",
-      "excludeNames": [],
       "outputDescription": "a poleaxe",
+      "Animation": {
+        "RightHand": "OneHandAxe",
+        "LeftHand": "OneHandAxe",
+        "EitherHand": "OneHandAxe",
+        "BothHands": "TwoHandAxe"
+      },
+      "AnimNameOverride": [],
+      "AnimModOverride": [],
+      "AnimItemOverride": [],
+      "excludeNames": [],
       "include": [],
       "exclude": [],
       "excludeSource": [],
@@ -182,7 +238,15 @@
       ],
       "excludeNames": [],
       "outputDescription": "a halberd",
-      "Animation": "TwoHandAxe",
+      "Animation": {
+        "RightHand": "OneHandAxe",
+        "LeftHand": "OneHandAxe",
+        "EitherHand": "OneHandAxe",
+        "BothHands": "TwoHandAxe"
+      },
+      "AnimNameOverride": [],
+      "AnimModOverride": [],
+      "AnimItemOverride": [],
       "include": [
         "000D99:DS3 Weapon Pack.esp",
         "00B090:DS3 Weapon Pack.esp",
@@ -209,32 +273,16 @@
       ],
       "excludeNames": [],
       "outputDescription": "a quarterstaff",
-      "Animation": "TwoHandAxe",
+      "Animation": {
+        "RightHand": "OneHandAxe",
+        "LeftHand": "OneHandAxe",
+        "EitherHand": "OneHandAxe",
+        "BothHands": "TwoHandAxe"
+      },
+      "AnimNameOverride": [],
+      "AnimModOverride": [],
+      "AnimItemOverride": [],
       "include": [],
-      "exclude": [],
-      "excludeSource": [],
-      "excludeMod": [],
-      "Script": []
-    },
-    "Dai-Katana": {
-      "keyword": [
-        "WeapTypeKatana"
-      ],
-      "commonNames": [
-        "daikatana",
-        "dai-katana",
-        "nodachi",
-        "changdao"
-      ],
-      "excludeNames": [],
-      "outputDescription": "a dai-katana",
-      "Animation": "TwoHandSword",
-      "include": [
-        "04A38F:Skyrim.esm",
-        "0EA29C:Skyrim.esm",
-        "000D71:Immersive Weapons.esp",
-        "00086D:BB Pack by Team TAL.esp"
-      ],
       "exclude": [],
       "excludeSource": [],
       "excludeMod": [],
@@ -251,15 +299,23 @@
         "ka po' tun",
         "wakizashi",
         "akaviri",
-        "katana"
+        "katana",
+        "daikatana",
+        "dai-katana"
       ],
       "excludeNames": [
-        "dai-katana",
-        "daikatana",
         "claw"
       ],
       "outputDescription": "a katana",
-      "Animation": "OneHandSword",
+      "Animation": {
+        "RightHand": "OneHandSword",
+        "LeftHand": "OneHandSword",
+        "EitherHand": "OneHandSword",
+        "BothHands": "TwoHandSword"
+      },
+      "AnimNameOverride": [],
+      "AnimModOverride": [],
+      "AnimItemOverride": [],
       "include": [
         "000D61:ccbgssse005-goldbrand.esl",
         "0C1989:Skyrim.esm",
@@ -278,7 +334,11 @@
         "00086C:BB Pack by Team TAL.esp",
         "000880:BB Pack by Team TAL.esp",
         "010E6C:Immersive Weapons.esp",
-        "000817:PrvtIRoyalArmory.esp"
+        "000817:PrvtIRoyalArmory.esp",
+        "04A38F:Skyrim.esm",
+        "0EA29C:Skyrim.esm",
+        "000D71:Immersive Weapons.esp",
+        "00086D:BB Pack by Team TAL.esp"
       ],
       "exclude": [
         "122D9C:LegacyoftheDragonborn.esm",
@@ -308,11 +368,20 @@
         "shamshir",
         "khopesh",
         "kilij",
-        "curved sword"
+        "curved sword",
+        "curved greatsword"
       ],
       "excludeNames": [],
       "outputDescription": "a curved sword",
-      "Animation": "OneHandSword",
+      "Animation": {
+        "RightHand": "OneHandSword",
+        "LeftHand": "OneHandSword",
+        "EitherHand": "OneHandSword",
+        "BothHands": "TwoHandSword"
+      },
+      "EQItemOverrides": [],
+      "EQModOverrides": [],
+      "EQNameOverrides": [],
       "include": [
         "00AFF5:DS3 Weapon Pack.esp",
         "00AAF8:DS3 Weapon Pack.esp",
@@ -324,9 +393,15 @@
         "000D72:DS3 Weapon Pack.esp",
         "000D89:DS3 Weapon Pack.esp",
         "00AFF8:DS3 Weapon Pack.esp",
+        "0101DE:DS3 Weapon Pack.esp",
+        "000F70:DS3 Weapon Pack.esp",
+        "00B078:DS3 Weapon Pack.esp",
+        "02469A:DS3 Weapon Pack.esp",
+        "00B079:DS3 Weapon Pack.esp",
         "0008F4:Dark Souls Item Pack by Team TAL.esp",
         "0008F5:Dark Souls Item Pack by Team TAL.esp",
         "0008F6:Dark Souls Item Pack by Team TAL.esp",
+        "000D6F:Dark Souls Item Pack by Team TAL.esp",
         "000811:PrvtIRoyalArmory.esp",
         "000830:Hammerfell Armory SE.esp",
         "000831:Hammerfell Armory SE.esp",
@@ -336,45 +411,18 @@
         "036689:Dragonborn.esm",
         "037FF3:Dragonborn.esm",
         "193654:ArteFake.esp",
-        "6AB85D:Skyrim.esm",
+        "24EC9E:ArteFake.esp",
         "0058D5:ArteFake.esp",
         "008954:ArteFake.esp",
+        "6AB85D:Skyrim.esm",
         "06EA8B:Skyrim.esm",
         "0F9648:Skyrim.esm",
-        "24EC9E:ArteFake.esp",
         "000D62:Liliths Tools.esp",
         "000905:Liliths Tools.esp",
         "00094E:Liliths Tools.esp",
         "000963:Liliths Tools.esp",
         "00097B:Liliths Tools.esp",
-        "00097F:Liliths Tools.esp"
-      ],
-      "exclude": [
-        "00084D:ccBGSSSE001-Fish.esm",
-        "02E93B:ccBGSSSE001-Fish.esm"
-      ],
-      "excludeSource": [],
-      "excludeMod": [],
-      "Script": []
-    },
-    "TwoHandedCurvedSword": {
-      "keyword": [
-        "WeapTypeSword",
-        "WeapTypeCurvedSword"
-      ],
-      "commonNames": [
-        "curved greatsword"
-      ],
-      "excludeNames": [],
-      "outputDescription": "a curved great-sword",
-      "Animation": "TwoHandSword",
-      "include": [
-        "0101DE:DS3 Weapon Pack.esp",
-        "000F70:DS3 Weapon Pack.esp",
-        "00B078:DS3 Weapon Pack.esp",
-        "02469A:DS3 Weapon Pack.esp",
-        "00B079:DS3 Weapon Pack.esp",
-        "000D6F:Dark Souls Item Pack by Team TAL.esp",
+        "00097F:Liliths Tools.esp",
         "000909:Liliths Tools.esp",
         "00094C:Liliths Tools.esp",
         "000808:Liliths Tools.esp",
@@ -403,7 +451,14 @@
       ],
       "excludeNames": [],
       "outputDescription": "a claw",
-      "Animation": "OneHandDagger",
+      "Animation": {
+        "RightHand": "OneHandDagger",
+        "LeftHand": "OneHandDagger",
+        "EitherHand": "OneHandDagger"
+      },
+      "AnimNameOverride": [],
+      "AnimModOverride": [],
+      "AnimItemOverride": [],
       "include": [
         "00B031:DS3 Weapon Pack.esp",
         "00B032:DS3 Weapon Pack.esp"
@@ -429,7 +484,15 @@
         "matchlock"
       ],
       "outputDescription": "a gun",
-      "Animation": "OneHandSword",
+      "Animation": {
+        "RightHand": "OneHandSword",
+        "LeftHand": "OneHandSword",
+        "EitherHand": "OneHandSword",
+        "BothHands": "TwoHandSword"
+      },
+      "AnimNameOverride": [],
+      "AnimModOverride": [],
+      "AnimItemOverride": [],
       "excludeNames": [],
       "include": [],
       "exclude": [],
@@ -447,7 +510,15 @@
       ],
       "excludeNames": [],
       "outputDescription": "a scythe",
-      "Animation": "TwoHandAxe",
+      "Animation": {
+        "RightHand": "OneHandAxe",
+        "LeftHand": "OneHandAxe",
+        "EitherHand": "OneHandAxe",
+        "BothHands": "TwoHandAxe"
+      },
+      "AnimNameOverride": [],
+      "AnimModOverride": [],
+      "AnimItemOverride": [],
       "include": [],
       "exclude": [
         "77FFD5:LegacyoftheDragonborn.esm",
@@ -468,7 +539,14 @@
       ],
       "excludeNames": [],
       "outputDescription": "a whip",
-      "Animation": "OneHandMace",
+      "Animation": {
+        "RightHand": "OneHandMace",
+        "LeftHand": "OneHandMace",
+        "EitherHand": "OneHandMace"
+      },
+      "AnimNameOverride": [],
+      "AnimModOverride": [],
+      "AnimItemOverride": [],
       "include": [],
       "exclude": [],
       "excludeSource": [],
@@ -484,7 +562,14 @@
       ],
       "excludeNames": [],
       "outputDescription": "a javelin",
-      "Animation": "OneHandSword",
+      "Animation": {
+        "RightHand": "OneHandSword",
+        "LeftHand": "OneHandSword",
+        "EitherHand": "OneHandSword"
+      },
+      "AnimNameOverride": [],
+      "AnimModOverride": [],
+      "AnimItemOverride": [],
       "include": [],
       "exclude": [],
       "excludeSource": [],
@@ -501,7 +586,14 @@
       ],
       "excludeNames": [],
       "outputDescription": "a maul",
-      "Animation": "OneHandMace",
+      "Animation": {
+        "RightHand": "OneHandMace",
+        "LeftHand": "OneHandMace",
+        "EitherHand": "OneHandMace"
+      },
+      "AnimNameOverride": [],
+      "AnimModOverride": [],
+      "AnimItemOverride": [],
       "include": [],
       "exclude": [],
       "excludeSource": [],
@@ -518,7 +610,14 @@
       ],
       "excludeNames": [],
       "outputDescription": "a club",
-      "Animation": "OneHandMace",
+      "Animation": {
+        "RightHand": "OneHandMace",
+        "LeftHand": "OneHandMace",
+        "EitherHand": "OneHandMace"
+      },
+      "AnimNameOverride": [],
+      "AnimModOverride": [],
+      "AnimItemOverride": [],
       "include": [],
       "exclude": [],
       "excludeSource": [],
@@ -534,7 +633,14 @@
       ],
       "excludeNames": [],
       "outputDescription": "a hatchet",
-      "Animation": "OneHandAxe",
+      "Animation": {
+        "RightHand": "OneHandMace",
+        "LeftHand": "OneHandMace",
+        "EitherHand": "OneHandMace"
+      },
+      "AnimNameOverride": [],
+      "AnimModOverride": [],
+      "AnimItemOverride": [],
       "include": [],
       "exclude": [],
       "excludeSource": [],
@@ -551,7 +657,12 @@
       ],
       "excludeNames": [],
       "outputDescription": "a glaive",
-      "Animation": "TwoHandSword",
+      "Animation": {
+        "BothHands": "TwoHandSword"
+      },
+      "AnimNameOverride": [],
+      "AnimModOverride": [],
+      "AnimItemOverride": [],
       "include": [],
       "exclude": [],
       "excludeSource": [],
@@ -568,7 +679,12 @@
       ],
       "excludeNames": [],
       "outputDescription": "a trident",
-      "Animation": "TwoHandSword",
+      "Animation": {
+        "BothHands": "TwoHandSword"
+      },
+      "AnimNameOverride": [],
+      "AnimModOverride": [],
+      "AnimItemOverride": [],
       "include": [],
       "exclude": [
         "010E6C:Immersive Weapons.esp"
@@ -601,6 +717,7 @@
     "PrvtI_HeavyArmory.esp"
   ],
   "Gen": true,
+  "exp": "OFF",
   "InjectedKeywords": {
     "WeapTypeSpear": "077770:Update.esm",
     "WeapTypeJavelin": "077771:Update.esm",
@@ -627,5 +744,5 @@
     "WeapTypeCurvedSword": "077786:Update.esm",
     "WeapTypeTrident": "077787:Update.esm"
   },
-  "DBVer": 7
+  "DBVer": 8
 }

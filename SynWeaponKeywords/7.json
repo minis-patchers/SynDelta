@@ -1,0 +1,779 @@
+[
+  {
+    "value": "OFF",
+    "path": "/exp",
+    "op": "add"
+  },
+  {
+    "path": "/DB/Dai-Katana",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/TwoHandedCurvedSword",
+    "op": "remove"
+  },
+  {
+    "value": [],
+    "path": "/DB/Claw/AnimItemOverride",
+    "op": "add"
+  },
+  {
+    "value": [],
+    "path": "/DB/Claw/AnimModOverride",
+    "op": "add"
+  },
+  {
+    "value": [],
+    "path": "/DB/Claw/AnimNameOverride",
+    "op": "add"
+  },
+  {
+    "value": {
+      "RightHand": "OneHandDagger",
+      "LeftHand": "OneHandDagger",
+      "EitherHand": "OneHandDagger"
+    },
+    "path": "/DB/Claw/Animation",
+    "op": "replace"
+  },
+  {
+    "value": [],
+    "path": "/DB/Club/AnimItemOverride",
+    "op": "add"
+  },
+  {
+    "value": [],
+    "path": "/DB/Club/AnimModOverride",
+    "op": "add"
+  },
+  {
+    "value": [],
+    "path": "/DB/Club/AnimNameOverride",
+    "op": "add"
+  },
+  {
+    "value": {
+      "RightHand": "OneHandMace",
+      "LeftHand": "OneHandMace",
+      "EitherHand": "OneHandMace"
+    },
+    "path": "/DB/Club/Animation",
+    "op": "replace"
+  },
+  {
+    "value": [],
+    "path": "/DB/Glaive/AnimItemOverride",
+    "op": "add"
+  },
+  {
+    "value": [],
+    "path": "/DB/Glaive/AnimModOverride",
+    "op": "add"
+  },
+  {
+    "value": [],
+    "path": "/DB/Glaive/AnimNameOverride",
+    "op": "add"
+  },
+  {
+    "value": {
+      "BothHands": "TwoHandSword"
+    },
+    "path": "/DB/Glaive/Animation",
+    "op": "replace"
+  },
+  {
+    "value": [],
+    "path": "/DB/Gun/AnimItemOverride",
+    "op": "add"
+  },
+  {
+    "value": [],
+    "path": "/DB/Gun/AnimModOverride",
+    "op": "add"
+  },
+  {
+    "value": [],
+    "path": "/DB/Gun/AnimNameOverride",
+    "op": "add"
+  },
+  {
+    "value": {
+      "RightHand": "OneHandSword",
+      "LeftHand": "OneHandSword",
+      "EitherHand": "OneHandSword",
+      "BothHands": "TwoHandSword"
+    },
+    "path": "/DB/Gun/Animation",
+    "op": "replace"
+  },
+  {
+    "value": [],
+    "path": "/DB/Halberd/AnimItemOverride",
+    "op": "add"
+  },
+  {
+    "value": [],
+    "path": "/DB/Halberd/AnimModOverride",
+    "op": "add"
+  },
+  {
+    "value": [],
+    "path": "/DB/Halberd/AnimNameOverride",
+    "op": "add"
+  },
+  {
+    "value": {
+      "RightHand": "OneHandAxe",
+      "LeftHand": "OneHandAxe",
+      "EitherHand": "OneHandAxe",
+      "BothHands": "TwoHandAxe"
+    },
+    "path": "/DB/Halberd/Animation",
+    "op": "replace"
+  },
+  {
+    "value": [],
+    "path": "/DB/HalfPike/AnimItemOverride",
+    "op": "add"
+  },
+  {
+    "value": [],
+    "path": "/DB/HalfPike/AnimModOverride",
+    "op": "add"
+  },
+  {
+    "value": [],
+    "path": "/DB/HalfPike/AnimNameOverride",
+    "op": "add"
+  },
+  {
+    "value": {
+      "RightHand": "OneHandSword",
+      "LeftHand": "OneHandSword",
+      "EitherHand": "OneHandSword",
+      "BothHands": "TwoHandSword"
+    },
+    "path": "/DB/HalfPike/Animation",
+    "op": "replace"
+  },
+  {
+    "value": [],
+    "path": "/DB/Hatchet/AnimItemOverride",
+    "op": "add"
+  },
+  {
+    "value": [],
+    "path": "/DB/Hatchet/AnimModOverride",
+    "op": "add"
+  },
+  {
+    "value": [],
+    "path": "/DB/Hatchet/AnimNameOverride",
+    "op": "add"
+  },
+  {
+    "value": {
+      "RightHand": "OneHandMace",
+      "LeftHand": "OneHandMace",
+      "EitherHand": "OneHandMace"
+    },
+    "path": "/DB/Hatchet/Animation",
+    "op": "replace"
+  },
+  {
+    "value": [],
+    "path": "/DB/Javelin/AnimItemOverride",
+    "op": "add"
+  },
+  {
+    "value": [],
+    "path": "/DB/Javelin/AnimModOverride",
+    "op": "add"
+  },
+  {
+    "value": [],
+    "path": "/DB/Javelin/AnimNameOverride",
+    "op": "add"
+  },
+  {
+    "value": {
+      "RightHand": "OneHandSword",
+      "LeftHand": "OneHandSword",
+      "EitherHand": "OneHandSword"
+    },
+    "path": "/DB/Javelin/Animation",
+    "op": "replace"
+  },
+  {
+    "value": [],
+    "path": "/DB/Katana/AnimItemOverride",
+    "op": "add"
+  },
+  {
+    "value": [],
+    "path": "/DB/Katana/AnimModOverride",
+    "op": "add"
+  },
+  {
+    "value": [],
+    "path": "/DB/Katana/AnimNameOverride",
+    "op": "add"
+  },
+  {
+    "value": {
+      "RightHand": "OneHandSword",
+      "LeftHand": "OneHandSword",
+      "EitherHand": "OneHandSword",
+      "BothHands": "TwoHandSword"
+    },
+    "path": "/DB/Katana/Animation",
+    "op": "replace"
+  },
+  {
+    "value": "daikatana",
+    "path": "/DB/Katana/commonNames/7",
+    "op": "add"
+  },
+  {
+    "value": "dai-katana",
+    "path": "/DB/Katana/commonNames/8",
+    "op": "add"
+  },
+  {
+    "value": "claw",
+    "path": "/DB/Katana/excludeNames/0",
+    "op": "replace"
+  },
+  {
+    "path": "/DB/Katana/excludeNames/2",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Katana/excludeNames/1",
+    "op": "remove"
+  },
+  {
+    "value": "04A38F:Skyrim.esm",
+    "path": "/DB/Katana/include/18",
+    "op": "add"
+  },
+  {
+    "value": "0EA29C:Skyrim.esm",
+    "path": "/DB/Katana/include/19",
+    "op": "add"
+  },
+  {
+    "value": "000D71:Immersive Weapons.esp",
+    "path": "/DB/Katana/include/20",
+    "op": "add"
+  },
+  {
+    "value": "00086D:BB Pack by Team TAL.esp",
+    "path": "/DB/Katana/include/21",
+    "op": "add"
+  },
+  {
+    "value": [],
+    "path": "/DB/Maul/AnimItemOverride",
+    "op": "add"
+  },
+  {
+    "value": [],
+    "path": "/DB/Maul/AnimModOverride",
+    "op": "add"
+  },
+  {
+    "value": [],
+    "path": "/DB/Maul/AnimNameOverride",
+    "op": "add"
+  },
+  {
+    "value": {
+      "RightHand": "OneHandMace",
+      "LeftHand": "OneHandMace",
+      "EitherHand": "OneHandMace"
+    },
+    "path": "/DB/Maul/Animation",
+    "op": "replace"
+  },
+  {
+    "value": [],
+    "path": "/DB/OneHandedCurvedSword/EQItemOverrides",
+    "op": "add"
+  },
+  {
+    "value": [],
+    "path": "/DB/OneHandedCurvedSword/EQModOverrides",
+    "op": "add"
+  },
+  {
+    "value": [],
+    "path": "/DB/OneHandedCurvedSword/EQNameOverrides",
+    "op": "add"
+  },
+  {
+    "value": {
+      "RightHand": "OneHandSword",
+      "LeftHand": "OneHandSword",
+      "EitherHand": "OneHandSword",
+      "BothHands": "TwoHandSword"
+    },
+    "path": "/DB/OneHandedCurvedSword/Animation",
+    "op": "replace"
+  },
+  {
+    "value": "curved greatsword",
+    "path": "/DB/OneHandedCurvedSword/commonNames/14",
+    "op": "add"
+  },
+  {
+    "value": "0101DE:DS3 Weapon Pack.esp",
+    "path": "/DB/OneHandedCurvedSword/include/10",
+    "op": "replace"
+  },
+  {
+    "value": "000F70:DS3 Weapon Pack.esp",
+    "path": "/DB/OneHandedCurvedSword/include/11",
+    "op": "replace"
+  },
+  {
+    "value": "00B078:DS3 Weapon Pack.esp",
+    "path": "/DB/OneHandedCurvedSword/include/12",
+    "op": "replace"
+  },
+  {
+    "value": "02469A:DS3 Weapon Pack.esp",
+    "path": "/DB/OneHandedCurvedSword/include/13",
+    "op": "replace"
+  },
+  {
+    "value": "00B079:DS3 Weapon Pack.esp",
+    "path": "/DB/OneHandedCurvedSword/include/14",
+    "op": "replace"
+  },
+  {
+    "value": "0008F4:Dark Souls Item Pack by Team TAL.esp",
+    "path": "/DB/OneHandedCurvedSword/include/15",
+    "op": "replace"
+  },
+  {
+    "value": "0008F5:Dark Souls Item Pack by Team TAL.esp",
+    "path": "/DB/OneHandedCurvedSword/include/16",
+    "op": "replace"
+  },
+  {
+    "value": "0008F6:Dark Souls Item Pack by Team TAL.esp",
+    "path": "/DB/OneHandedCurvedSword/include/17",
+    "op": "replace"
+  },
+  {
+    "value": "000D6F:Dark Souls Item Pack by Team TAL.esp",
+    "path": "/DB/OneHandedCurvedSword/include/18",
+    "op": "replace"
+  },
+  {
+    "value": "000811:PrvtIRoyalArmory.esp",
+    "path": "/DB/OneHandedCurvedSword/include/19",
+    "op": "replace"
+  },
+  {
+    "value": "000830:Hammerfell Armory SE.esp",
+    "path": "/DB/OneHandedCurvedSword/include/20",
+    "op": "replace"
+  },
+  {
+    "value": "000831:Hammerfell Armory SE.esp",
+    "path": "/DB/OneHandedCurvedSword/include/21",
+    "op": "replace"
+  },
+  {
+    "value": "000832:Hammerfell Armory SE.esp",
+    "path": "/DB/OneHandedCurvedSword/include/22",
+    "op": "replace"
+  },
+  {
+    "value": "018DDD:Dragonborn.esm",
+    "path": "/DB/OneHandedCurvedSword/include/23",
+    "op": "replace"
+  },
+  {
+    "value": "037FF2:Dragonborn.esm",
+    "path": "/DB/OneHandedCurvedSword/include/24",
+    "op": "replace"
+  },
+  {
+    "value": "036689:Dragonborn.esm",
+    "path": "/DB/OneHandedCurvedSword/include/25",
+    "op": "replace"
+  },
+  {
+    "value": "037FF3:Dragonborn.esm",
+    "path": "/DB/OneHandedCurvedSword/include/26",
+    "op": "replace"
+  },
+  {
+    "value": "193654:ArteFake.esp",
+    "path": "/DB/OneHandedCurvedSword/include/27",
+    "op": "replace"
+  },
+  {
+    "value": "24EC9E:ArteFake.esp",
+    "path": "/DB/OneHandedCurvedSword/include/28",
+    "op": "replace"
+  },
+  {
+    "value": "0058D5:ArteFake.esp",
+    "path": "/DB/OneHandedCurvedSword/include/29",
+    "op": "replace"
+  },
+  {
+    "value": "008954:ArteFake.esp",
+    "path": "/DB/OneHandedCurvedSword/include/30",
+    "op": "replace"
+  },
+  {
+    "value": "6AB85D:Skyrim.esm",
+    "path": "/DB/OneHandedCurvedSword/include/31",
+    "op": "replace"
+  },
+  {
+    "value": "06EA8B:Skyrim.esm",
+    "path": "/DB/OneHandedCurvedSword/include/32",
+    "op": "replace"
+  },
+  {
+    "value": "0F9648:Skyrim.esm",
+    "path": "/DB/OneHandedCurvedSword/include/33",
+    "op": "replace"
+  },
+  {
+    "value": "000D62:Liliths Tools.esp",
+    "path": "/DB/OneHandedCurvedSword/include/34",
+    "op": "add"
+  },
+  {
+    "value": "000905:Liliths Tools.esp",
+    "path": "/DB/OneHandedCurvedSword/include/35",
+    "op": "add"
+  },
+  {
+    "value": "00094E:Liliths Tools.esp",
+    "path": "/DB/OneHandedCurvedSword/include/36",
+    "op": "add"
+  },
+  {
+    "value": "000963:Liliths Tools.esp",
+    "path": "/DB/OneHandedCurvedSword/include/37",
+    "op": "add"
+  },
+  {
+    "value": "00097B:Liliths Tools.esp",
+    "path": "/DB/OneHandedCurvedSword/include/38",
+    "op": "add"
+  },
+  {
+    "value": "00097F:Liliths Tools.esp",
+    "path": "/DB/OneHandedCurvedSword/include/39",
+    "op": "add"
+  },
+  {
+    "value": "000909:Liliths Tools.esp",
+    "path": "/DB/OneHandedCurvedSword/include/40",
+    "op": "add"
+  },
+  {
+    "value": "00094C:Liliths Tools.esp",
+    "path": "/DB/OneHandedCurvedSword/include/41",
+    "op": "add"
+  },
+  {
+    "value": "000808:Liliths Tools.esp",
+    "path": "/DB/OneHandedCurvedSword/include/42",
+    "op": "add"
+  },
+  {
+    "value": "000806:Liliths Tools.esp",
+    "path": "/DB/OneHandedCurvedSword/include/43",
+    "op": "add"
+  },
+  {
+    "value": "00080A:Liliths Tools.esp",
+    "path": "/DB/OneHandedCurvedSword/include/44",
+    "op": "add"
+  },
+  {
+    "value": "000973:Liliths Tools.esp",
+    "path": "/DB/OneHandedCurvedSword/include/45",
+    "op": "add"
+  },
+  {
+    "value": "000977:Liliths Tools.esp",
+    "path": "/DB/OneHandedCurvedSword/include/46",
+    "op": "add"
+  },
+  {
+    "value": "00096F:Liliths Tools.esp",
+    "path": "/DB/OneHandedCurvedSword/include/47",
+    "op": "add"
+  },
+  {
+    "value": [],
+    "path": "/DB/Pike/AnimItemOverride",
+    "op": "add"
+  },
+  {
+    "value": [],
+    "path": "/DB/Pike/AnimModOverride",
+    "op": "add"
+  },
+  {
+    "value": [],
+    "path": "/DB/Pike/AnimNameOverride",
+    "op": "add"
+  },
+  {
+    "value": {
+      "RightHand": "OneHandSword",
+      "LeftHand": "OneHandSword",
+      "EitherHand": "OneHandSword",
+      "BothHands": "TwoHandSword"
+    },
+    "path": "/DB/Pike/Animation",
+    "op": "replace"
+  },
+  {
+    "value": [],
+    "path": "/DB/Poleaxe/AnimItemOverride",
+    "op": "add"
+  },
+  {
+    "value": [],
+    "path": "/DB/Poleaxe/AnimModOverride",
+    "op": "add"
+  },
+  {
+    "value": [],
+    "path": "/DB/Poleaxe/AnimNameOverride",
+    "op": "add"
+  },
+  {
+    "value": {
+      "RightHand": "OneHandAxe",
+      "LeftHand": "OneHandAxe",
+      "EitherHand": "OneHandAxe",
+      "BothHands": "TwoHandAxe"
+    },
+    "path": "/DB/Poleaxe/Animation",
+    "op": "replace"
+  },
+  {
+    "value": [],
+    "path": "/DB/Quarterstaff/AnimItemOverride",
+    "op": "add"
+  },
+  {
+    "value": [],
+    "path": "/DB/Quarterstaff/AnimModOverride",
+    "op": "add"
+  },
+  {
+    "value": [],
+    "path": "/DB/Quarterstaff/AnimNameOverride",
+    "op": "add"
+  },
+  {
+    "value": {
+      "RightHand": "OneHandAxe",
+      "LeftHand": "OneHandAxe",
+      "EitherHand": "OneHandAxe",
+      "BothHands": "TwoHandAxe"
+    },
+    "path": "/DB/Quarterstaff/Animation",
+    "op": "replace"
+  },
+  {
+    "value": [],
+    "path": "/DB/Rapier/AnimItemOverride",
+    "op": "add"
+  },
+  {
+    "value": [],
+    "path": "/DB/Rapier/AnimModOverride",
+    "op": "add"
+  },
+  {
+    "value": [],
+    "path": "/DB/Rapier/AnimNameOverride",
+    "op": "add"
+  },
+  {
+    "value": {
+      "RightHand": "OneHandSword",
+      "LeftHand": "OneHandSword",
+      "EitherHand": "OneHandSword"
+    },
+    "path": "/DB/Rapier/Animation",
+    "op": "replace"
+  },
+  {
+    "value": [],
+    "path": "/DB/Scythe/AnimItemOverride",
+    "op": "add"
+  },
+  {
+    "value": [],
+    "path": "/DB/Scythe/AnimModOverride",
+    "op": "add"
+  },
+  {
+    "value": [],
+    "path": "/DB/Scythe/AnimNameOverride",
+    "op": "add"
+  },
+  {
+    "value": {
+      "RightHand": "OneHandAxe",
+      "LeftHand": "OneHandAxe",
+      "EitherHand": "OneHandAxe",
+      "BothHands": "TwoHandAxe"
+    },
+    "path": "/DB/Scythe/Animation",
+    "op": "replace"
+  },
+  {
+    "value": [],
+    "path": "/DB/Shortspear/AnimItemOverride",
+    "op": "add"
+  },
+  {
+    "value": [],
+    "path": "/DB/Shortspear/AnimModOverride",
+    "op": "add"
+  },
+  {
+    "value": [],
+    "path": "/DB/Shortspear/AnimNameOverride",
+    "op": "add"
+  },
+  {
+    "value": {
+      "RightHand": "OneHandSword",
+      "LeftHand": "OneHandSword",
+      "EitherHand": "OneHandSword",
+      "BothHands": "TwoHandSword"
+    },
+    "path": "/DB/Shortspear/Animation",
+    "op": "replace"
+  },
+  {
+    "value": [],
+    "path": "/DB/Shortsword/AnimItemOverride",
+    "op": "add"
+  },
+  {
+    "value": [],
+    "path": "/DB/Shortsword/AnimModOverride",
+    "op": "add"
+  },
+  {
+    "value": [],
+    "path": "/DB/Shortsword/AnimNameOverride",
+    "op": "add"
+  },
+  {
+    "value": {
+      "RightHand": "OneHandSword",
+      "LeftHand": "OneHandSword",
+      "EitherHand": "OneHandSword"
+    },
+    "path": "/DB/Shortsword/Animation",
+    "op": "replace"
+  },
+  {
+    "value": [],
+    "path": "/DB/Spear/AnimItemOverride",
+    "op": "add"
+  },
+  {
+    "value": [],
+    "path": "/DB/Spear/AnimModOverride",
+    "op": "add"
+  },
+  {
+    "value": [],
+    "path": "/DB/Spear/AnimNameOverride",
+    "op": "add"
+  },
+  {
+    "value": {
+      "RightHand": "OneHandSword",
+      "LeftHand": "OneHandSword",
+      "EitherHand": "OneHandSword",
+      "BothHands": "TwoHandSword"
+    },
+    "path": "/DB/Spear/Animation",
+    "op": "replace"
+  },
+  {
+    "value": [],
+    "path": "/DB/Spear/Script/0/ExcludeItems",
+    "op": "add"
+  },
+  {
+    "value": [],
+    "path": "/DB/Spear/Script/0/ExcludeMods",
+    "op": "add"
+  },
+  {
+    "value": [],
+    "path": "/DB/Trident/AnimItemOverride",
+    "op": "add"
+  },
+  {
+    "value": [],
+    "path": "/DB/Trident/AnimModOverride",
+    "op": "add"
+  },
+  {
+    "value": [],
+    "path": "/DB/Trident/AnimNameOverride",
+    "op": "add"
+  },
+  {
+    "value": {
+      "BothHands": "TwoHandSword"
+    },
+    "path": "/DB/Trident/Animation",
+    "op": "replace"
+  },
+  {
+    "value": [],
+    "path": "/DB/Whip/AnimItemOverride",
+    "op": "add"
+  },
+  {
+    "value": [],
+    "path": "/DB/Whip/AnimModOverride",
+    "op": "add"
+  },
+  {
+    "value": [],
+    "path": "/DB/Whip/AnimNameOverride",
+    "op": "add"
+  },
+  {
+    "value": {
+      "RightHand": "OneHandMace",
+      "LeftHand": "OneHandMace",
+      "EitherHand": "OneHandMace"
+    },
+    "path": "/DB/Whip/Animation",
+    "op": "replace"
+  },
+  {
+    "value": 8,
+    "path": "/DBVer",
+    "op": "replace"
+  }
+]
