@@ -3,6 +3,7 @@
     <OutputType>Exe</OutputType>
     <TargetFramework>net6</TargetFramework>
     <PublishSingleFile>true</PublishSingleFile>
+    <SelfContained>True</SelfContained>
   </PropertyGroup>
 
   <ItemGroup>
