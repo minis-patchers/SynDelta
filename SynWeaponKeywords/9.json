@@ -1,0 +1,118 @@
+[
+  {
+    "path": "/DB/Claw/AnimEQOverride",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Club/AnimEQOverride",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Glaive/AnimEQOverride",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Gun/AnimEQOverride",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Halberd/AnimEQOverride",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/HalfPike/AnimEQOverride",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Hatchet/AnimEQOverride",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Javelin/AnimEQOverride",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Katana/AnimEQOverride",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Maul/AnimEQOverride",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/OneHandedCurvedSword/AnimEQOverride",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/OneHandedCurvedSword/AnimItemOverrides",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/OneHandedCurvedSword/AnimModOverrides",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/OneHandedCurvedSword/AnimNameOverrides",
+    "op": "remove"
+  },
+  {
+    "value": [],
+    "path": "/DB/OneHandedCurvedSword/EQItemOverrides",
+    "op": "add"
+  },
+  {
+    "value": [],
+    "path": "/DB/OneHandedCurvedSword/EQModOverrides",
+    "op": "add"
+  },
+  {
+    "value": [],
+    "path": "/DB/OneHandedCurvedSword/EQNameOverrides",
+    "op": "add"
+  },
+  {
+    "path": "/DB/Pike/AnimEQOverride",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Poleaxe/AnimEQOverride",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Quarterstaff/AnimEQOverride",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Rapier/AnimEQOverride",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Scythe/AnimEQOverride",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Shortspear/AnimEQOverride",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Shortsword/AnimEQOverride",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Spear/AnimEQOverride",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Trident/AnimEQOverride",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Whip/AnimEQOverride",
+    "op": "remove"
+  },
+  {
+    "value": 10,
+    "path": "/DBVer",
+    "op": "replace"
+  }
+]
