@@ -14,6 +14,7 @@
         "LeftHand": "OneHandSword",
         "EitherHand": "OneHandSword"
       },
+      "AnimEQOverride": [],
       "AnimNameOverride": [],
       "AnimModOverride": [],
       "AnimItemOverride": [],
@@ -42,6 +43,7 @@
         "LeftHand": "OneHandSword",
         "EitherHand": "OneHandSword"
       },
+      "AnimEQOverride": [],
       "AnimNameOverride": [],
       "AnimModOverride": [],
       "AnimItemOverride": [],
@@ -84,6 +86,7 @@
         "EitherHand": "OneHandSword",
         "BothHands": "TwoHandSword"
       },
+      "AnimEQOverride": [],
       "AnimNameOverride": [],
       "AnimModOverride": [],
       "AnimItemOverride": [],
@@ -116,6 +119,7 @@
         "EitherHand": "OneHandSword",
         "BothHands": "TwoHandSword"
       },
+      "AnimEQOverride": [],
       "AnimNameOverride": [],
       "AnimModOverride": [],
       "AnimItemOverride": [],
@@ -144,6 +148,7 @@
         "EitherHand": "OneHandSword",
         "BothHands": "TwoHandSword"
       },
+      "AnimEQOverride": [],
       "AnimNameOverride": [],
       "AnimModOverride": [],
       "AnimItemOverride": [],
@@ -194,6 +199,7 @@
         "EitherHand": "OneHandSword",
         "BothHands": "TwoHandSword"
       },
+      "AnimEQOverride": [],
       "AnimNameOverride": [],
       "AnimModOverride": [],
       "AnimItemOverride": [],
@@ -217,6 +223,7 @@
         "EitherHand": "OneHandAxe",
         "BothHands": "TwoHandAxe"
       },
+      "AnimEQOverride": [],
       "AnimNameOverride": [],
       "AnimModOverride": [],
       "AnimItemOverride": [],
@@ -244,6 +251,7 @@
         "EitherHand": "OneHandAxe",
         "BothHands": "TwoHandAxe"
       },
+      "AnimEQOverride": [],
       "AnimNameOverride": [],
       "AnimModOverride": [],
       "AnimItemOverride": [],
@@ -279,6 +287,7 @@
         "EitherHand": "OneHandAxe",
         "BothHands": "TwoHandAxe"
       },
+      "AnimEQOverride": [],
       "AnimNameOverride": [],
       "AnimModOverride": [],
       "AnimItemOverride": [],
@@ -313,6 +322,7 @@
         "EitherHand": "OneHandSword",
         "BothHands": "TwoHandSword"
       },
+      "AnimEQOverride": [],
       "AnimNameOverride": [],
       "AnimModOverride": [],
       "AnimItemOverride": [],
@@ -379,9 +389,10 @@
         "EitherHand": "OneHandSword",
         "BothHands": "TwoHandSword"
       },
-      "EQItemOverrides": [],
-      "EQModOverrides": [],
-      "EQNameOverrides": [],
+      "AnimEQOverride": [],
+      "AnimItemOverrides": [],
+      "AnimModOverrides": [],
+      "AnimNameOverrides": [],
       "include": [
         "00AFF5:DS3 Weapon Pack.esp",
         "00AAF8:DS3 Weapon Pack.esp",
@@ -456,6 +467,7 @@
         "LeftHand": "OneHandDagger",
         "EitherHand": "OneHandDagger"
       },
+      "AnimEQOverrides": [],
       "AnimNameOverride": [],
       "AnimModOverride": [],
       "AnimItemOverride": [],
@@ -490,6 +502,7 @@
         "EitherHand": "OneHandSword",
         "BothHands": "TwoHandSword"
       },
+      "AnimEQOverrides": [],
       "AnimNameOverride": [],
       "AnimModOverride": [],
       "AnimItemOverride": [],
@@ -516,6 +529,7 @@
         "EitherHand": "OneHandAxe",
         "BothHands": "TwoHandAxe"
       },
+      "AnimEQOverrides": [],
       "AnimNameOverride": [],
       "AnimModOverride": [],
       "AnimItemOverride": [],
@@ -544,6 +558,7 @@
         "LeftHand": "OneHandMace",
         "EitherHand": "OneHandMace"
       },
+      "AnimEQOverrides": [],
       "AnimNameOverride": [],
       "AnimModOverride": [],
       "AnimItemOverride": [],
@@ -567,6 +582,7 @@
         "LeftHand": "OneHandSword",
         "EitherHand": "OneHandSword"
       },
+      "AnimEQOverrides": [],
       "AnimNameOverride": [],
       "AnimModOverride": [],
       "AnimItemOverride": [],
@@ -591,6 +607,7 @@
         "LeftHand": "OneHandMace",
         "EitherHand": "OneHandMace"
       },
+      "AnimEQOverrides": [],
       "AnimNameOverride": [],
       "AnimModOverride": [],
       "AnimItemOverride": [],
@@ -615,6 +632,7 @@
         "LeftHand": "OneHandMace",
         "EitherHand": "OneHandMace"
       },
+      "AnimEQOverrides": [],
       "AnimNameOverride": [],
       "AnimModOverride": [],
       "AnimItemOverride": [],
@@ -638,6 +656,7 @@
         "LeftHand": "OneHandMace",
         "EitherHand": "OneHandMace"
       },
+      "AnimEQOverrides": [],
       "AnimNameOverride": [],
       "AnimModOverride": [],
       "AnimItemOverride": [],
@@ -660,6 +679,7 @@
       "Animation": {
         "BothHands": "TwoHandSword"
       },
+      "AnimEQOverrides": [],
       "AnimNameOverride": [],
       "AnimModOverride": [],
       "AnimItemOverride": [],
@@ -682,6 +702,7 @@
       "Animation": {
         "BothHands": "TwoHandSword"
       },
+      "AnimEQOverrides": [],
       "AnimNameOverride": [],
       "AnimModOverride": [],
       "AnimItemOverride": [],

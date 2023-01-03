@@ -1,114 +1,135 @@
 [
   {
-    "path": "/DB/Claw/AnimEQOverride",
-    "op": "remove"
+    "value": [],
+    "path": "/DB/Claw/AnimEQOverrides",
+    "op": "add"
   },
   {
-    "path": "/DB/Club/AnimEQOverride",
-    "op": "remove"
+    "value": [],
+    "path": "/DB/Club/AnimEQOverrides",
+    "op": "add"
   },
   {
-    "path": "/DB/Glaive/AnimEQOverride",
-    "op": "remove"
+    "value": [],
+    "path": "/DB/Glaive/AnimEQOverrides",
+    "op": "add"
   },
   {
-    "path": "/DB/Gun/AnimEQOverride",
-    "op": "remove"
+    "value": [],
+    "path": "/DB/Gun/AnimEQOverrides",
+    "op": "add"
   },
   {
+    "value": [],
     "path": "/DB/Halberd/AnimEQOverride",
-    "op": "remove"
+    "op": "add"
   },
   {
+    "value": [],
     "path": "/DB/HalfPike/AnimEQOverride",
-    "op": "remove"
+    "op": "add"
   },
   {
-    "path": "/DB/Hatchet/AnimEQOverride",
-    "op": "remove"
+    "value": [],
+    "path": "/DB/Hatchet/AnimEQOverrides",
+    "op": "add"
   },
   {
-    "path": "/DB/Javelin/AnimEQOverride",
-    "op": "remove"
+    "value": [],
+    "path": "/DB/Javelin/AnimEQOverrides",
+    "op": "add"
   },
   {
+    "value": [],
     "path": "/DB/Katana/AnimEQOverride",
-    "op": "remove"
-  },
-  {
-    "path": "/DB/Maul/AnimEQOverride",
-    "op": "remove"
-  },
-  {
-    "path": "/DB/OneHandedCurvedSword/AnimEQOverride",
-    "op": "remove"
-  },
-  {
-    "path": "/DB/OneHandedCurvedSword/AnimItemOverrides",
-    "op": "remove"
-  },
-  {
-    "path": "/DB/OneHandedCurvedSword/AnimModOverrides",
-    "op": "remove"
-  },
-  {
-    "path": "/DB/OneHandedCurvedSword/AnimNameOverrides",
-    "op": "remove"
+    "op": "add"
   },
   {
     "value": [],
+    "path": "/DB/Maul/AnimEQOverrides",
+    "op": "add"
+  },
+  {
     "path": "/DB/OneHandedCurvedSword/EQItemOverrides",
-    "op": "add"
+    "op": "remove"
   },
   {
-    "value": [],
     "path": "/DB/OneHandedCurvedSword/EQModOverrides",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/OneHandedCurvedSword/EQNameOverrides",
+    "op": "remove"
+  },
+  {
+    "value": [],
+    "path": "/DB/OneHandedCurvedSword/AnimEQOverride",
     "op": "add"
   },
   {
     "value": [],
-    "path": "/DB/OneHandedCurvedSword/EQNameOverrides",
+    "path": "/DB/OneHandedCurvedSword/AnimItemOverrides",
     "op": "add"
   },
   {
+    "value": [],
+    "path": "/DB/OneHandedCurvedSword/AnimModOverrides",
+    "op": "add"
+  },
+  {
+    "value": [],
+    "path": "/DB/OneHandedCurvedSword/AnimNameOverrides",
+    "op": "add"
+  },
+  {
+    "value": [],
     "path": "/DB/Pike/AnimEQOverride",
-    "op": "remove"
+    "op": "add"
   },
   {
+    "value": [],
     "path": "/DB/Poleaxe/AnimEQOverride",
-    "op": "remove"
+    "op": "add"
   },
   {
+    "value": [],
     "path": "/DB/Quarterstaff/AnimEQOverride",
-    "op": "remove"
+    "op": "add"
   },
   {
+    "value": [],
     "path": "/DB/Rapier/AnimEQOverride",
-    "op": "remove"
+    "op": "add"
   },
   {
-    "path": "/DB/Scythe/AnimEQOverride",
-    "op": "remove"
+    "value": [],
+    "path": "/DB/Scythe/AnimEQOverrides",
+    "op": "add"
   },
   {
+    "value": [],
     "path": "/DB/Shortspear/AnimEQOverride",
-    "op": "remove"
+    "op": "add"
   },
   {
+    "value": [],
     "path": "/DB/Shortsword/AnimEQOverride",
-    "op": "remove"
+    "op": "add"
   },
   {
+    "value": [],
     "path": "/DB/Spear/AnimEQOverride",
-    "op": "remove"
+    "op": "add"
   },
   {
-    "path": "/DB/Trident/AnimEQOverride",
-    "op": "remove"
+    "value": [],
+    "path": "/DB/Trident/AnimEQOverrides",
+    "op": "add"
   },
   {
-    "path": "/DB/Whip/AnimEQOverride",
-    "op": "remove"
+    "value": [],
+    "path": "/DB/Whip/AnimEQOverrides",
+    "op": "add"
   },
   {
     "value": 10,
