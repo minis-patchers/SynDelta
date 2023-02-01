@@ -348,15 +348,15 @@
         "04A38F:Skyrim.esm",
         "0EA29C:Skyrim.esm",
         "000D71:Immersive Weapons.esp",
-        "00086D:BB Pack by Team TAL.esp",
-        "056B72:DBM_RelicHunter.esp",
-        "060E9B:DBM_RelicHunter.esp"
+        "00086D:BB Pack by Team TAL.esp"
       ],
       "exclude": [
         "122D9C:LegacyoftheDragonborn.esm",
         "166840:LegacyoftheDragonborn.esm",
         "166841:LegacyoftheDragonborn.esm",
-        "166842:LegacyoftheDragonborn.esm"
+        "166842:LegacyoftheDragonborn.esm",
+        "056B72:DBM_RelicHunter.esp",
+        "060E9B:DBM_RelicHunter.esp"
       ],
       "excludeSource": [],
       "excludeMod": [],
@@ -767,5 +767,5 @@
     "WeapTypeCurvedSword": "777786:Update.esm",
     "WeapTypeTrident": "777787:Update.esm"
   },
-  "DBVer": 11
+  "DBVer": 12
 }

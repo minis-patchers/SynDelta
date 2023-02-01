@@ -1,0 +1,25 @@
+[
+  {
+    "value": "056B72:DBM_RelicHunter.esp",
+    "path": "/DB/Katana/exclude/4",
+    "op": "add"
+  },
+  {
+    "value": "060E9B:DBM_RelicHunter.esp",
+    "path": "/DB/Katana/exclude/5",
+    "op": "add"
+  },
+  {
+    "path": "/DB/Katana/include/23",
+    "op": "remove"
+  },
+  {
+    "path": "/DB/Katana/include/22",
+    "op": "remove"
+  },
+  {
+    "value": 12,
+    "path": "/DBVer",
+    "op": "replace"
+  }
+]
