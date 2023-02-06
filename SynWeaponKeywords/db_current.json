@@ -48,6 +48,7 @@
       "AnimModOverride": [],
       "AnimItemOverride": [],
       "include": [
+        "000D63:ccbgssse031-advcyrus.esm",
         "000816:Immersive Weapons.esp",
         "000964:Immersive Weapons.esp",
         "0246B1:DS3 Weapon Pack.esp",
@@ -767,5 +768,5 @@
     "WeapTypeCurvedSword": "777786:Update.esm",
     "WeapTypeTrident": "777787:Update.esm"
   },
-  "DBVer": 12
+  "DBVer": 13
 }
