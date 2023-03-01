@@ -3,4 +3,6 @@
 */bin/*
 */obj/*
 *.exe
+SynWeaponKeywords/db_patchgen.json
 MakeJsonPatch
+MakeJsonMicroPatch
