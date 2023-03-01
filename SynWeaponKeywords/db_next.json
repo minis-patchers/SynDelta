@@ -1,5 +1,5 @@
 {
-  "DBVer": 13,
+  "DBVer": 14,
   "DB": {
     "Shortsword": {
       "keyword": [
@@ -347,7 +347,7 @@
         "166840:LegacyoftheDragonborn.esm",
         "166841:LegacyoftheDragonborn.esm",
         "166842:LegacyoftheDragonborn.esm",
-        "056B72:DBM_RelicHunter.esp",
+        "056C72:DBM_RelicHunter.esp",
         "060E9B:DBM_RelicHunter.esp"
       ],
       "excludeSource": [],
@@ -364,7 +364,7 @@
       "AnimNameOverride": [],
       "AnimEQOverride": []
     },
-    "OneHandedCurvedSword": {
+    "CurvedSword": {
       "keyword": [
         "WeapTypeCurvedSword"
       ],
