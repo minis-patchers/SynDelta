@@ -1,7 +1,0 @@
-[
-    {
-        "Name": "SynWeaponKeywords",
-        "DB_Old": "SynWeaponKeywords/db_current.json",
-        "DB_Patched": "SynWeaponKeywords/db_patchgen.json"
-    }
-]

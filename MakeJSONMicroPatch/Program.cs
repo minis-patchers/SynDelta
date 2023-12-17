@@ -11,23 +11,32 @@ namespace MakeJSONPatch
         {
             public string Name;
             public string DB_Old;
-            public string DB_Patched;
+            public string DB_New;
+            public string Indexes;
+            public string RepoName;
+            public string Branch;
+            public string VerVar;
         }
         public static void Main(string[] args)
         {
-            ConvertJson(args[0], args[1]);
+            ConvertJson(args[0]);
         }
-        public static void ConvertJson(string cn, string outname)
+        public static void ConvertJson(string cn)
         {
-            var conf = JArray.Parse(File.ReadAllText("config_mp.json")).ToObject<List<Config>>();
+            var conf = JArray.Parse(File.ReadAllText("config.json")).ToObject<List<Config>>();
             var cfg = conf.Where(x => x.Name == cn).First();
+            var patchIndex = JArray.Parse(File.ReadAllText(Path.Combine(cfg.Indexes, "index.json")));
             var DBOld = JObject.Parse(File.ReadAllText(cfg.DB_Old));
-            var DBConv = JObject.Parse(File.ReadAllText(cfg.DB_Patched));
+            var DBConv = JObject.Parse(File.ReadAllText(cfg.DB_New));
             var diff = JsonDiffPatch.JsonDiffPatch.Diff(DBOld, DBConv);
-            File.WriteAllText($"{outname}.json", JsonConvert.SerializeObject(diff, Formatting.Indented, new JsonSerializerSettings()
+            File.WriteAllText(cfg.DB_Old, JsonConvert.SerializeObject(DBConv, Formatting.Indented));
+            File.WriteAllText(Path.Combine(cfg.Indexes, $"{patchIndex.Count}.json"), JsonConvert.SerializeObject(diff, Formatting.Indented, new JsonSerializerSettings()
             {
                 NullValueHandling = NullValueHandling.Ignore,
             }));
+            patchIndex.Add($"https://raw.githubusercontent.com/{cfg.RepoName}/{cfg.Branch}/{cfg.Name}/{patchIndex.Count}.json");
+            File.WriteAllText(cfg.DB_New, JsonConvert.SerializeObject(DBConv, Formatting.Indented));
+            File.WriteAllText(Path.Combine(cfg.Indexes, "index.json"), JsonConvert.SerializeObject(patchIndex, Formatting.Indented));
         }
     }
 }
@@ -87,7 +96,7 @@ namespace JsonDiffPatch
                 {
                     while (index < rightCount)
                     {
-                        yield return Add(Extend(path, index.ToString()), "", rightList[index]);
+                        yield return Add(path, "", rightList[index]);
                         index++;
                     }
                 }
@@ -99,7 +108,7 @@ namespace JsonDiffPatch
                     index = leftCount;
                     while (index > rightCount)
                     {
-                        yield return Remove(Extend(path, (--index).ToString()), "", leftList[index]);
+                        yield return Remove(path, "", leftList[index]);
                     }
                 }
 
