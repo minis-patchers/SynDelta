@@ -1,11 +1,3 @@
 {
-    "DB": {},
-    "excludes": {
-      "phrases": [],
-      "weapons": []
-    },
-    "sources": [],
-    "DoUpdates": true,
-    "UpdateLocation": "https://raw.githubusercontent.com/minis-patchers/SynDelta/main/SynWeaponKeywords/index.json",
-    "DBVer": 0
-  }
+  "DBVer": 0
+}
