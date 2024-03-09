@@ -3,7 +3,8 @@
   "DB": {
     "Shortsword": {
       "keyword": [
-        "WeapTypeShortsword"
+        "OCF_WeapTypeMelee",
+        "OCF_WeapTypeShortsword1H"
       ],
       "commonNames": [
         "shortsword"
@@ -12,22 +13,12 @@
       "outputDescription": "a shortsword",
       "include": [],
       "exclude": [],
-      "excludeSource": [],
-      "excludeMod": [],
-      "Script": [],
-      "Animation": {
-        "RightHand": "OneHandSword",
-        "LeftHand": "OneHandSword",
-        "EitherHand": "OneHandSword"
-      },
-      "AnimItemOverride": [],
-      "AnimModOverride": [],
-      "AnimNameOverride": [],
-      "AnimEQOverride": []
+      "validEquipTypes": []
     },
     "Rapier": {
       "keyword": [
-        "WeapTypeRapier"
+        "OCF_WeapTypeMelee",
+        "OCF_WeapTypeRapier1H"
       ],
       "commonNames": [
         "rapier",
@@ -59,23 +50,13 @@
         "000883:Liliths Tools.esp"
       ],
       "exclude": [],
-      "excludeSource": [],
-      "excludeMod": [],
-      "Script": [],
-      "Animation": {
-        "RightHand": "OneHandSword",
-        "LeftHand": "OneHandSword",
-        "EitherHand": "OneHandSword"
-      },
-      "AnimItemOverride": [],
-      "AnimModOverride": [],
-      "AnimNameOverride": [],
-      "AnimEQOverride": []
+      "validEquipType": "OneHand"
     },
     "Pike": {
       "keyword": [
-        "WeapTypePike",
-        "NAR_Sig"
+        "OCF_WeapTypeMelee",
+        "OCF_WeapTypePike1H",
+        "OCF_WeapTypePole1H_Thrust"
       ],
       "commonNames": [
         "pike",
@@ -91,49 +72,13 @@
         "000D7D:DS3 Weapon Pack.esp"
       ],
       "exclude": [],
-      "excludeSource": [],
-      "excludeMod": [],
-      "Script": [],
-      "Animation": {
-        "RightHand": "OneHandSword",
-        "LeftHand": "OneHandSword",
-        "EitherHand": "OneHandSword",
-        "BothHands": "TwoHandSword"
-      },
-      "AnimItemOverride": [],
-      "AnimModOverride": [],
-      "AnimNameOverride": [],
-      "AnimEQOverride": []
-    },
-    "HalfPike": {
-      "keyword": [
-        "WeapTypePike",
-        "WeapTypeHalfPike"
-      ],
-      "commonNames": [
-        "half pike"
-      ],
-      "excludeNames": [],
-      "outputDescription": "a half pike",
-      "include": [],
-      "exclude": [],
-      "excludeSource": [],
-      "excludeMod": [],
-      "Script": [],
-      "Animation": {
-        "RightHand": "OneHandSword",
-        "LeftHand": "OneHandSword",
-        "EitherHand": "OneHandSword",
-        "BothHands": "TwoHandSword"
-      },
-      "AnimItemOverride": [],
-      "AnimModOverride": [],
-      "AnimNameOverride": [],
-      "AnimEQOverride": []
+      "validEquipType": "OneHand"
     },
     "Spear": {
       "keyword": [
-        "WeapTypeSpear"
+        "OCF_WeapTypeMelee",
+        "OCF_WeapTypePole1H_Thrust",
+        "OCF_WeapTypeSpear1H"
       ],
       "commonNames": [
         "spear"
@@ -159,86 +104,13 @@
         "000A2A:Liliths Tools.esp",
         "000A2E:Liliths Tools.esp"
       ],
-      "excludeSource": [],
-      "excludeMod": [],
-      "Script": [
-        {
-          "Requires": "SkyrimSpearMechanic.esp",
-          "ScriptName": "SSM_WeaponScript",
-          "Objects": {
-            "SSM_Quest": "0012CA:SkyrimSpearMechanic.esp"
-          },
-          "ExcludeItems": [],
-          "ExcludeMods": []
-        }
-      ],
-      "Animation": {
-        "RightHand": "OneHandSword",
-        "LeftHand": "OneHandSword",
-        "EitherHand": "OneHandSword",
-        "BothHands": "TwoHandSword"
-      },
-      "AnimItemOverride": [],
-      "AnimModOverride": [],
-      "AnimNameOverride": [],
-      "AnimEQOverride": []
-    },
-    "Shortspear": {
-      "keyword": [
-        "WeapTypeSpear",
-        "WeapTypeShortspear"
-      ],
-      "commonNames": [
-        "shortspear",
-        "short spear",
-        "short-spear"
-      ],
-      "excludeNames": [],
-      "outputDescription": "a shortspear",
-      "include": [],
-      "exclude": [],
-      "excludeSource": [],
-      "excludeMod": [],
-      "Script": [],
-      "Animation": {
-        "RightHand": "OneHandSword",
-        "LeftHand": "OneHandSword",
-        "EitherHand": "OneHandSword",
-        "BothHands": "TwoHandSword"
-      },
-      "AnimItemOverride": [],
-      "AnimModOverride": [],
-      "AnimNameOverride": [],
-      "AnimEQOverride": []
-    },
-    "Poleaxe": {
-      "keyword": [
-        "WeapTypePoleaxe"
-      ],
-      "commonNames": [
-        "poleaxe"
-      ],
-      "excludeNames": [],
-      "outputDescription": "a poleaxe",
-      "include": [],
-      "exclude": [],
-      "excludeSource": [],
-      "excludeMod": [],
-      "Script": [],
-      "Animation": {
-        "RightHand": "OneHandAxe",
-        "LeftHand": "OneHandAxe",
-        "EitherHand": "OneHandAxe",
-        "BothHands": "TwoHandAxe"
-      },
-      "AnimItemOverride": [],
-      "AnimModOverride": [],
-      "AnimNameOverride": [],
-      "AnimEQOverride": []
+      "validEquipType": "OneHand"
     },
     "Halberd": {
       "keyword": [
-        "WeapTypeHalberd"
+        "OCF_WeapTypeMelee",
+        "OCF_WeapTypePole1H",
+        "OCF_WeapTypeHalberd1H"
       ],
       "commonNames": [
         "halberd",
@@ -255,53 +127,27 @@
         "000935:Dark Souls Item Pack by Team TAL.esp"
       ],
       "exclude": [],
-      "excludeSource": [],
-      "excludeMod": [],
-      "Script": [],
-      "Animation": {
-        "RightHand": "OneHandAxe",
-        "LeftHand": "OneHandAxe",
-        "EitherHand": "OneHandAxe",
-        "BothHands": "TwoHandAxe"
-      },
-      "AnimItemOverride": [],
-      "AnimModOverride": [],
-      "AnimNameOverride": [],
-      "AnimEQOverride": []
+      "validEquipType": "OneHand"
     },
-    "Quarterstaff": {
+    "Dai-Katana": {
       "keyword": [
-        "WeapTypeQtrStaff",
-        "WeapTypeQuarterstaff"
+        "OCF_WeapTypeMelee",
+        "OCF_WeapTypeKatana2H"
       ],
       "commonNames": [
-        "quarterstaff",
-        "battle staff",
-        "battlestaff",
-        "shortstaff",
-        "short staff"
+        "daikatana",
+        "dai-katana"
       ],
       "excludeNames": [],
-      "outputDescription": "a quarterstaff",
+      "outputDescription": "a dai-katana",
       "include": [],
       "exclude": [],
-      "excludeSource": [],
-      "excludeMod": [],
-      "Script": [],
-      "Animation": {
-        "RightHand": "OneHandAxe",
-        "LeftHand": "OneHandAxe",
-        "EitherHand": "OneHandAxe",
-        "BothHands": "TwoHandAxe"
-      },
-      "AnimItemOverride": [],
-      "AnimModOverride": [],
-      "AnimNameOverride": [],
-      "AnimEQOverride": []
+      "validEquipType": "TwoHand"
     },
     "Katana": {
       "keyword": [
-        "WeapTypeKatana"
+        "OCF_WeapTypeMelee",
+        "OCF_WeapTypeKatana1H"
       ],
       "commonNames": [
         "daito",
@@ -310,12 +156,12 @@
         "ka po' tun",
         "wakizashi",
         "akaviri",
-        "katana",
-        "daikatana",
-        "dai-katana"
+        "katana"
       ],
       "excludeNames": [
-        "claw"
+        "claw",
+        "daikatana",
+        "dai-katana"
       ],
       "outputDescription": "a katana",
       "include": [
@@ -350,116 +196,12 @@
         "056C72:DBM_RelicHunter.esp",
         "060E9B:DBM_RelicHunter.esp"
       ],
-      "excludeSource": [],
-      "excludeMod": [],
-      "Script": [],
-      "Animation": {
-        "RightHand": "OneHandSword",
-        "LeftHand": "OneHandSword",
-        "EitherHand": "OneHandSword",
-        "BothHands": "TwoHandSword"
-      },
-      "AnimItemOverride": [],
-      "AnimModOverride": [],
-      "AnimNameOverride": [],
-      "AnimEQOverride": []
-    },
-    "CurvedSword": {
-      "keyword": [
-        "WeapTypeCurvedSword"
-      ],
-      "commonNames": [
-        "scimitar",
-        "dadao",
-        "cutlass",
-        "parmerion",
-        "alik'r",
-        "sarai",
-        "saif",
-        "saber",
-        "falchion",
-        "shotel",
-        "shamshir",
-        "khopesh",
-        "kilij",
-        "curved sword",
-        "curved greatsword"
-      ],
-      "excludeNames": [],
-      "outputDescription": "a curved sword",
-      "include": [
-        "00AFF5:DS3 Weapon Pack.esp",
-        "00AAF8:DS3 Weapon Pack.esp",
-        "00AFFB:DS3 Weapon Pack.esp",
-        "00AFFC:DS3 Weapon Pack.esp",
-        "00AFF3:DS3 Weapon Pack.esp",
-        "00AFF4:DS3 Weapon Pack.esp",
-        "0101DD:DS3 Weapon Pack.esp",
-        "000D72:DS3 Weapon Pack.esp",
-        "000D89:DS3 Weapon Pack.esp",
-        "00AFF8:DS3 Weapon Pack.esp",
-        "0101DE:DS3 Weapon Pack.esp",
-        "000F70:DS3 Weapon Pack.esp",
-        "00B078:DS3 Weapon Pack.esp",
-        "02469A:DS3 Weapon Pack.esp",
-        "00B079:DS3 Weapon Pack.esp",
-        "0008F4:Dark Souls Item Pack by Team TAL.esp",
-        "0008F5:Dark Souls Item Pack by Team TAL.esp",
-        "0008F6:Dark Souls Item Pack by Team TAL.esp",
-        "000D6F:Dark Souls Item Pack by Team TAL.esp",
-        "000811:PrvtIRoyalArmory.esp",
-        "000830:Hammerfell Armory SE.esp",
-        "000831:Hammerfell Armory SE.esp",
-        "000832:Hammerfell Armory SE.esp",
-        "018DDD:Dragonborn.esm",
-        "037FF2:Dragonborn.esm",
-        "036689:Dragonborn.esm",
-        "037FF3:Dragonborn.esm",
-        "193654:ArteFake.esp",
-        "24EC9E:ArteFake.esp",
-        "0058D5:ArteFake.esp",
-        "008954:ArteFake.esp",
-        "6AB85D:Skyrim.esm",
-        "06EA8B:Skyrim.esm",
-        "0F9648:Skyrim.esm",
-        "000D62:Liliths Tools.esp",
-        "000905:Liliths Tools.esp",
-        "00094E:Liliths Tools.esp",
-        "000963:Liliths Tools.esp",
-        "00097B:Liliths Tools.esp",
-        "00097F:Liliths Tools.esp",
-        "000909:Liliths Tools.esp",
-        "00094C:Liliths Tools.esp",
-        "000808:Liliths Tools.esp",
-        "000806:Liliths Tools.esp",
-        "00080A:Liliths Tools.esp",
-        "000973:Liliths Tools.esp",
-        "000977:Liliths Tools.esp",
-        "00096F:Liliths Tools.esp"
-      ],
-      "exclude": [
-        "00084D:ccBGSSSE001-Fish.esm",
-        "02E93B:ccBGSSSE001-Fish.esm"
-      ],
-      "excludeSource": [],
-      "excludeMod": [],
-      "Script": [],
-      "Animation": {
-        "RightHand": "OneHandSword",
-        "LeftHand": "OneHandSword",
-        "EitherHand": "OneHandSword",
-        "BothHands": "TwoHandSword"
-      },
-      "AnimEQOverride": [],
-      "AnimItemOverrides": [],
-      "AnimModOverrides": [],
-      "AnimNameOverrides": []
+      "validEquipType": "OneHand"
     },
     "Claw": {
       "keyword": [
-        "WeapTypeClaw",
-        "NA_InflictBleed",
-        "NA_CantParry"
+        "OCF_WeapTypeMelee",
+        "OCF_WeapTypeClaw1H"
       ],
       "commonNames": [
         "claw"
@@ -471,58 +213,18 @@
         "00B032:DS3 Weapon Pack.esp"
       ],
       "exclude": [],
-      "excludeSource": [],
-      "excludeMod": [],
-      "Script": [],
-      "Animation": {
-        "RightHand": "OneHandDagger",
-        "LeftHand": "OneHandDagger",
-        "EitherHand": "OneHandDagger"
-      },
-      "AnimItemOverride": [],
-      "AnimModOverride": [],
-      "AnimNameOverride": [],
-      "AnimEQOverrides": []
+      "validEquipType": "OneHand"
     },
-    "Gun": {
+    "War-Scythe": {
       "keyword": [
-        "WeapTypeGun"
+        "OCF_WeapTypePole1H",
+        "OCF_WeapTypePole1H_Swing",
+        "OCF_WeapTypeWarscythe1H"
       ],
       "commonNames": [
-        "gun",
-        "musket",
-        "rifle",
-        "pistol",
-        "handgun",
-        "shotgun",
-        "flintlock",
-        "blunderbuss",
-        "matchlock"
-      ],
-      "outputDescription": "a gun",
-      "include": [],
-      "exclude": [],
-      "excludeSource": [],
-      "excludeMod": [],
-      "Script": [],
-      "Animation": {
-        "RightHand": "OneHandSword",
-        "LeftHand": "OneHandSword",
-        "EitherHand": "OneHandSword",
-        "BothHands": "TwoHandSword"
-      },
-      "excludeNames": [],
-      "AnimItemOverride": [],
-      "AnimModOverride": [],
-      "AnimNameOverride": [],
-      "AnimEQOverrides": []
-    },
-    "Scythe": {
-      "keyword": [
-        "WeapTypeScythe"
-      ],
-      "commonNames": [
-        "scythe",
+        "war scythe",
+        "warscythe",
+        "war-scythe",
         "sickle"
       ],
       "excludeNames": [],
@@ -534,23 +236,12 @@
         "037FF2:Dragonborn.esm",
         "096D63:Immersive Weapons.esp"
       ],
-      "excludeSource": [],
-      "excludeMod": [],
-      "Script": [],
-      "Animation": {
-        "RightHand": "OneHandAxe",
-        "LeftHand": "OneHandAxe",
-        "EitherHand": "OneHandAxe",
-        "BothHands": "TwoHandAxe"
-      },
-      "AnimItemOverride": [],
-      "AnimModOverride": [],
-      "AnimNameOverride": [],
-      "AnimEQOverrides": []
+      "validEquipType": "OneHand"
     },
     "Whip": {
       "keyword": [
-        "WeapTypeWhip"
+        "OCF_WeapTypeMelee",
+        "OCF_WeapTypeWhip1H"
       ],
       "commonNames": [
         "whip"
@@ -559,22 +250,13 @@
       "outputDescription": "a whip",
       "include": [],
       "exclude": [],
-      "excludeSource": [],
-      "excludeMod": [],
-      "Script": [],
-      "Animation": {
-        "RightHand": "OneHandMace",
-        "LeftHand": "OneHandMace",
-        "EitherHand": "OneHandMace"
-      },
-      "AnimItemOverride": [],
-      "AnimModOverride": [],
-      "AnimNameOverride": [],
-      "AnimEQOverrides": []
+      "validEquipType": "OneHand"
     },
     "Javelin": {
       "keyword": [
-        "WeapTypeJavelin"
+        "OCF_WeapTypeMelee",
+        "OCF_WeapTypePole1H",
+        "OCF_WeapTypeJavelin1H"
       ],
       "commonNames": [
         "javelin"
@@ -583,97 +265,14 @@
       "outputDescription": "a javelin",
       "include": [],
       "exclude": [],
-      "excludeSource": [],
-      "excludeMod": [],
-      "Script": [],
-      "Animation": {
-        "RightHand": "OneHandSword",
-        "LeftHand": "OneHandSword",
-        "EitherHand": "OneHandSword"
-      },
-      "AnimItemOverride": [],
-      "AnimModOverride": [],
-      "AnimNameOverride": [],
-      "AnimEQOverrides": []
-    },
-    "Maul": {
-      "keyword": [
-        "WeapTypeMace",
-        "WeapTypeMaul"
-      ],
-      "commonNames": [
-        "poleaxe"
-      ],
-      "excludeNames": [],
-      "outputDescription": "a maul",
-      "include": [],
-      "exclude": [],
-      "excludeSource": [],
-      "excludeMod": [],
-      "Script": [],
-      "Animation": {
-        "RightHand": "OneHandMace",
-        "LeftHand": "OneHandMace",
-        "EitherHand": "OneHandMace"
-      },
-      "AnimItemOverride": [],
-      "AnimModOverride": [],
-      "AnimNameOverride": [],
-      "AnimEQOverrides": []
-    },
-    "Club": {
-      "keyword": [
-        "WeapTypeHalberd",
-        "WeapTypeClub"
-      ],
-      "commonNames": [
-        "poleaxe"
-      ],
-      "excludeNames": [],
-      "outputDescription": "a club",
-      "include": [],
-      "exclude": [],
-      "excludeSource": [],
-      "excludeMod": [],
-      "Script": [],
-      "Animation": {
-        "RightHand": "OneHandMace",
-        "LeftHand": "OneHandMace",
-        "EitherHand": "OneHandMace"
-      },
-      "AnimItemOverride": [],
-      "AnimModOverride": [],
-      "AnimNameOverride": [],
-      "AnimEQOverrides": []
-    },
-    "Hatchet": {
-      "keyword": [
-        "WeapTypeHatchet"
-      ],
-      "commonNames": [
-        "hatchet"
-      ],
-      "excludeNames": [],
-      "outputDescription": "a hatchet",
-      "include": [],
-      "exclude": [],
-      "excludeSource": [],
-      "excludeMod": [],
-      "Script": [],
-      "Animation": {
-        "RightHand": "OneHandMace",
-        "LeftHand": "OneHandMace",
-        "EitherHand": "OneHandMace"
-      },
-      "AnimItemOverride": [],
-      "AnimModOverride": [],
-      "AnimNameOverride": [],
-      "AnimEQOverrides": []
+      "validEquipType": "OneHand"
     },
     "Glaive": {
       "keyword": [
-        "WeapTypePike",
-        "WeapTypeGlaive"
+        "OCF_WeapTypeMelee",
+        "OCF_WeapTypePole1H",
+        "OCF_WeapTypePole1H_Swing",
+        "OCF_WeapTypeGlaive1H"
       ],
       "commonNames": [
         "glaive"
@@ -682,21 +281,14 @@
       "outputDescription": "a glaive",
       "include": [],
       "exclude": [],
-      "excludeSource": [],
-      "excludeMod": [],
-      "Script": [],
-      "Animation": {
-        "BothHands": "TwoHandSword"
-      },
-      "AnimItemOverride": [],
-      "AnimModOverride": [],
-      "AnimNameOverride": [],
-      "AnimEQOverrides": []
+      "validEquipType": "OneHand"
     },
     "Trident": {
       "keyword": [
-        "WeapTypePike",
-        "WeapTypeTrident"
+        "OCF_WeapTypeMelee",
+        "OCF_WeapTypePole1H",
+        "OCF_WeapTypePole1H_Thrust",
+        "OCF_WeapTypeTrident1H"
       ],
       "commonNames": [
         "trident"
@@ -707,16 +299,7 @@
       "exclude": [
         "010E6C:Immersive Weapons.esp"
       ],
-      "excludeSource": [],
-      "excludeMod": [],
-      "Script": [],
-      "Animation": {
-        "BothHands": "TwoHandSword"
-      },
-      "AnimItemOverride": [],
-      "AnimModOverride": [],
-      "AnimNameOverride": [],
-      "AnimEQOverrides": []
+      "validEquipType": "OneHand"
     }
   },
   "excludes": {
@@ -731,41 +314,10 @@
       "10FCF7:Skyrim.esm",
       "04DED8:Skyrim.esm",
       "011D5E:Dawnguard.esm"
-    ],
-    "excludeMod": []
-  },
-  "InjectedKeywords": {
-    "WeapTypeSpear": "777770:Update.esm",
-    "WeapTypeJavelin": "777771:Update.esm",
-    "WeapTypePike": "777772:Update.esm",
-    "WeapTypeHalberd": "777773:Update.esm",
-    "WeapTypeRapier": "777774:Update.esm",
-    "WeapTypeQuarterstaff": "777775:Update.esm",
-    "WeapTypeClaw": "777776:Update.esm",
-    "WeapTypeScythe": "777777:Update.esm",
-    "WeapTypeWhip": "777778:Update.esm",
-    "WeapTypeKatana": "777779:Update.esm",
-    "WeapTypeGun": "77777A:Update.esm",
-    "WeapTypeUnarmed": "77777C:Update.esm",
-    "WeapTypePoleaxe": "77777D:Update.esm",
-    "WeapTypeClub": "77777E:Update.esm",
-    "WeapTypeHalfPike": "77777F:Update.esm",
-    "WeapTypeMaul": "777780:Update.esm",
-    "WeapTypeHatchet": "777781:Update.esm",
-    "WeapTypeShortsword": "777782:Update.esm",
-    "WeapTypeGlaive": "777783:Update.esm",
-    "WeapTypeLongMace": "777784:Update.esm",
-    "WeapTypeQtrStaff": "777785:Update.esm",
-    "WeapTypeCurvedSword": "777786:Update.esm",
-    "WeapTypeShortspear": "77777B:Update.esm",
-    "WeapTypeTrident": "777787:Update.esm"
+    ]
   },
   "sources": [
     "Skyrim.esm",
-    "NewArmoury.esp",
-    "SkyrimSpearMechanic.esp",
-    "Spears.esp",
-    "PrvtI_HeavyArmory.esp"
-  ],
-  "exp": "OFF"
+    "OCF.esp"
+  ]
 }
