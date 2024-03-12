@@ -13,7 +13,7 @@
       "outputDescription": "a shortsword",
       "include": [],
       "exclude": [],
-      "validEquipTypes": "OneHand"
+      "validEquipType": "OneHand"
     },
     "Rapier": {
       "keyword": [
