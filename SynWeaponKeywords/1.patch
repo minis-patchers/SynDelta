@@ -52,3 +52,6 @@
 + {"commonNames":["war scythe","warscythe","war-scythe","sickle"],"exclude":["77FFD5:LegacyoftheDragonborn.esm","018DDD:Dragonborn.esm","037FF2:Dragonborn.esm","096D63:Immersive Weapons.esp"],"excludeNames":[],"include":[],"keyword":["OCF_WeapTypePole1H","OCF_WeapTypePole1H_Swing","OCF_WeapTypeWarscythe1H"],"outputDescription":"a scythe","validEquipType":"OneHand"}
 @ ["DB","Whip1H"]
 + {"commonNames":["whip"],"exclude":[],"excludeNames":[],"include":[],"keyword":["OCF_WeapTypeMelee","OCF_WeapTypeWhip1H"],"outputDescription":"a whip","validEquipType":"OneHand"}
+@ ["DBVer"]
+- 1
++ 2
