@@ -1,3 +1,7 @@
-[
-  "https://raw.githubusercontent.com/minis-patchers/SynDelta/main/SynWeaponKeywords/0.patch"
-]
+{
+  "marker": "jd",
+  "index": [
+      "https://raw.githubusercontent.com/minis-patchers/SynDelta/main/SynWeaponKeywords/0.patch",
+      "https://raw.githubusercontent.com/minis-patchers/SynDelta/main/SynWeaponKeywords/1.patch"
+  ]
+}

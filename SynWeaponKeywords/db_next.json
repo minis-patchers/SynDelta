@@ -1,7 +1,7 @@
 {
-  "DBVer": 1,
+  "DBVer": 2,
   "DB": {
-    "Shortsword": {
+    "Shortsword1H": {
       "keyword": [
         "OCF_WeapTypeMelee",
         "OCF_WeapTypeShortsword1H"
@@ -15,7 +15,7 @@
       "exclude": [],
       "validEquipType": "OneHand"
     },
-    "Rapier": {
+    "Rapier1H": {
       "keyword": [
         "OCF_WeapTypeMelee",
         "OCF_WeapTypeRapier1H"
@@ -52,11 +52,12 @@
       "exclude": [],
       "validEquipType": "OneHand"
     },
-    "Pike": {
+    "Pike1H": {
       "keyword": [
         "OCF_WeapTypeMelee",
-        "OCF_WeapTypePike1H",
-        "OCF_WeapTypePole1H_Thrust"
+        "OCF_WeapTypePole1H",
+        "OCF_WeapTypePole1H_Thrust",
+        "OCF_WeapTypePike1H"
       ],
       "commonNames": [
         "pike",
@@ -74,9 +75,43 @@
       "exclude": [],
       "validEquipType": "OneHand"
     },
-    "Spear": {
+    "Spear2H": {
       "keyword": [
         "OCF_WeapTypeMelee",
+        "OCF_WeapTypePole2H",
+        "OCF_WeapTypePole2H_Thrust",
+        "OCF_WeapTypeSpear2H"
+      ],
+      "commonNames": [
+        "spear"
+      ],
+      "excludeNames": [
+        "shortspear",
+        "short spear",
+        "short-spear"
+      ],
+      "outputDescription": "a spear",
+      "include": [
+        "0246A8:DS3 Weapon Pack.esp"
+      ],
+      "exclude": [
+        "77AE26:LegacyoftheDragonborn.esm",
+        "11CBFB:LegacyoftheDragonborn.esm",
+        "000810:ccbgssse040-advobgobs.esl",
+        "000D99:DS3 Weapon Pack.esp",
+        "00D06C:DS3 Weapon Pack.esp",
+        "0246A9:DS3 Weapon Pack.esp",
+        "00095F:Liliths Tools.esp",
+        "000A04:Liliths Tools.esp",
+        "000A2A:Liliths Tools.esp",
+        "000A2E:Liliths Tools.esp"
+      ],
+      "validEquipType": "TwoHand"
+    },
+    "Spear1H": {
+      "keyword": [
+        "OCF_WeapTypeMelee",
+        "OCF_WeapTypePole1H",
         "OCF_WeapTypePole1H_Thrust",
         "OCF_WeapTypeSpear1H"
       ],
@@ -106,7 +141,7 @@
       ],
       "validEquipType": "OneHand"
     },
-    "Halberd": {
+    "Halberd1H": {
       "keyword": [
         "OCF_WeapTypeMelee",
         "OCF_WeapTypePole1H",
@@ -129,7 +164,7 @@
       "exclude": [],
       "validEquipType": "OneHand"
     },
-    "Dai-Katana": {
+    "Katana2H": {
       "keyword": [
         "OCF_WeapTypeMelee",
         "OCF_WeapTypeKatana2H"
@@ -144,7 +179,7 @@
       "exclude": [],
       "validEquipType": "TwoHand"
     },
-    "Katana": {
+    "Katana1H": {
       "keyword": [
         "OCF_WeapTypeMelee",
         "OCF_WeapTypeKatana1H"
@@ -198,7 +233,7 @@
       ],
       "validEquipType": "OneHand"
     },
-    "Claw": {
+    "Claw1H": {
       "keyword": [
         "OCF_WeapTypeMelee",
         "OCF_WeapTypeClaw1H"
@@ -215,7 +250,7 @@
       "exclude": [],
       "validEquipType": "OneHand"
     },
-    "War-Scythe": {
+    "WarScythe1H": {
       "keyword": [
         "OCF_WeapTypePole1H",
         "OCF_WeapTypePole1H_Swing",
@@ -238,7 +273,7 @@
       ],
       "validEquipType": "OneHand"
     },
-    "Whip": {
+    "Whip1H": {
       "keyword": [
         "OCF_WeapTypeMelee",
         "OCF_WeapTypeWhip1H"
@@ -252,7 +287,7 @@
       "exclude": [],
       "validEquipType": "OneHand"
     },
-    "Javelin": {
+    "Javelin1H": {
       "keyword": [
         "OCF_WeapTypeMelee",
         "OCF_WeapTypePole1H",
@@ -267,7 +302,7 @@
       "exclude": [],
       "validEquipType": "OneHand"
     },
-    "Glaive": {
+    "Glaive1H": {
       "keyword": [
         "OCF_WeapTypeMelee",
         "OCF_WeapTypePole1H",
@@ -283,7 +318,7 @@
       "exclude": [],
       "validEquipType": "OneHand"
     },
-    "Trident": {
+    "Trident1H": {
       "keyword": [
         "OCF_WeapTypeMelee",
         "OCF_WeapTypePole1H",
