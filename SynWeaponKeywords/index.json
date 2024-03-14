@@ -1,9 +1,6 @@
 {
-  "marker": "main-jd-v1",
+  "marker": "main-mzjd-v1",
   "index": [
-      "https://raw.githubusercontent.com/minis-patchers/SynDelta/main/SynWeaponKeywords/0.patch",
-      "https://raw.githubusercontent.com/minis-patchers/SynDelta/main/SynWeaponKeywords/1.patch",
-      "https://raw.githubusercontent.com/minis-patchers/SynDelta/main/SynWeaponKeywords/2.patch",
-      "https://raw.githubusercontent.com/minis-patchers/SynDelta/main/SynWeaponKeywords/3.patch"
+      "https://raw.githubusercontent.com/minis-patchers/SynDelta/main/SynWeaponKeywords/0.json"
   ]
 }
