@@ -1,5 +1,5 @@
 {
-  "DBVer": 3,
+  "DBVer": 4,
   "DB": {
     "Shortsword1H": {
       "keyword": [
@@ -270,6 +270,7 @@
         "war scythe",
         "warscythe",
         "war-scythe",
+        "scythe",
         "sickle"
       ],
       "excludeNames": [],
@@ -367,6 +368,10 @@
   },
   "sources": [
     "Skyrim.esm",
-    "OCF.esp"
+    "OCF.esp",
+    "NewArmoury.esp",
+    "SkyrimSpearMechanic.esp",
+    "Spears.esp",
+    "PrvtI_HeavyArmory.esp"
   ]
 }
