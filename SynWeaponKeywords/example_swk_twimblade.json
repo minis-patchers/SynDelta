@@ -1,0 +1,22 @@
+[
+  {
+    "op": "Add",
+    "path": "/DB/TwinBlades",
+    "value": {
+      "commonNames": [
+        "twin blade",
+        "twin-blade",
+        "twinblade"
+      ],
+      "exclude": [],
+      "excludeNames": [],
+      "include": [],
+      "keyword": [
+        "OCF_WeapTypeMelee",
+        "OCF_WeapTypeTwinblade2H"
+      ],
+      "outputDescription": "a twin-blade",
+      "validEquipType": "TwoHand"
+    }
+  }
+]
