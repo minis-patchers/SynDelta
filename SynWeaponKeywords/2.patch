@@ -1,0 +1,33 @@
+@ ["DB","Claw1H","keyword",["set"],{}]
++ "WeapTypeClaw"
+@ ["DB","Glaive1H","keyword",["set"],{}]
++ "WeapTypeGlaive"
+@ ["DB","Halberd1H","keyword",["set"],{}]
++ "WeapTypeHalberd"
+@ ["DB","Javelin1H","keyword",["set"],{}]
++ "WeapTypeJavelin"
+@ ["DB","Katana1H","keyword",["set"],{}]
++ "WeapTypeKatana"
+@ ["DB","Katana2H","keyword",["set"],{}]
++ "WeapTypeKatana"
+@ ["DB","Pike1H","keyword",["set"],{}]
++ "WeapTypePike"
+@ ["DB","Rapier1H","keyword",["set"],{}]
++ "WeapTypeRapier"
+@ ["DB","Shortsword1H","keyword",["set"],{}]
++ "WeapTypeShortsword"
+@ ["DB","Spear1H","keyword",["set"],{}]
++ "WeapTypeSpear"
+@ ["DB","Spear2H","keyword",["set"],{}]
++ "WeapTypeSpear"
+@ ["DB","Trident1H","keyword",["set"],{}]
++ "WeapTypeSpear"
+@ ["DB","WarScythe1H"]
+- {"commonNames":["war scythe","warscythe","war-scythe","sickle"],"exclude":["77FFD5:LegacyoftheDragonborn.esm","018DDD:Dragonborn.esm","037FF2:Dragonborn.esm","096D63:Immersive Weapons.esp"],"excludeNames":[],"include":[],"keyword":["OCF_WeapTypePole1H","OCF_WeapTypePole1H_Swing","OCF_WeapTypeWarscythe1H"],"outputDescription":"a scythe","validEquipType":"OneHand"}
+@ ["DB","Whip1H","keyword",["set"],{}]
++ "WeapTypeWhip"
+@ ["DB","Scythe1H"]
++ {"commonNames":["war scythe","warscythe","war-scythe","sickle"],"exclude":["77FFD5:LegacyoftheDragonborn.esm","018DDD:Dragonborn.esm","037FF2:Dragonborn.esm","096D63:Immersive Weapons.esp"],"excludeNames":[],"include":[],"keyword":["OCF_WeapTypePole1H","OCF_WeapTypePole1H_Swing","OCF_WeapTypeWarscythe1H","WeapTypeScythe"],"outputDescription":"a scythe","validEquipType":"OneHand"}
+@ ["DBVer"]
+- 2
++ 3

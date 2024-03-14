@@ -1,10 +1,11 @@
 {
-  "DBVer": 2,
+  "DBVer": 4,
   "DB": {
     "Shortsword1H": {
       "keyword": [
         "OCF_WeapTypeMelee",
-        "OCF_WeapTypeShortsword1H"
+        "OCF_WeapTypeShortsword1H",
+        "WeapTypeShortsword"
       ],
       "commonNames": [
         "shortsword"
@@ -18,7 +19,8 @@
     "Rapier1H": {
       "keyword": [
         "OCF_WeapTypeMelee",
-        "OCF_WeapTypeRapier1H"
+        "OCF_WeapTypeRapier1H",
+        "WeapTypeRapier"
       ],
       "commonNames": [
         "rapier",
@@ -57,7 +59,8 @@
         "OCF_WeapTypeMelee",
         "OCF_WeapTypePole1H",
         "OCF_WeapTypePole1H_Thrust",
-        "OCF_WeapTypePike1H"
+        "OCF_WeapTypePike1H",
+        "WeapTypePike"
       ],
       "commonNames": [
         "pike",
@@ -80,7 +83,8 @@
         "OCF_WeapTypeMelee",
         "OCF_WeapTypePole2H",
         "OCF_WeapTypePole2H_Thrust",
-        "OCF_WeapTypeSpear2H"
+        "OCF_WeapTypeSpear2H",
+        "WeapTypeSpear"
       ],
       "commonNames": [
         "spear"
@@ -113,7 +117,8 @@
         "OCF_WeapTypeMelee",
         "OCF_WeapTypePole1H",
         "OCF_WeapTypePole1H_Thrust",
-        "OCF_WeapTypeSpear1H"
+        "OCF_WeapTypeSpear1H",
+        "WeapTypeSpear"
       ],
       "commonNames": [
         "spear"
@@ -145,7 +150,8 @@
       "keyword": [
         "OCF_WeapTypeMelee",
         "OCF_WeapTypePole1H",
-        "OCF_WeapTypeHalberd1H"
+        "OCF_WeapTypeHalberd1H",
+        "WeapTypeHalberd"
       ],
       "commonNames": [
         "halberd",
@@ -167,7 +173,8 @@
     "Katana2H": {
       "keyword": [
         "OCF_WeapTypeMelee",
-        "OCF_WeapTypeKatana2H"
+        "OCF_WeapTypeKatana2H",
+        "WeapTypeKatana"
       ],
       "commonNames": [
         "daikatana",
@@ -182,7 +189,8 @@
     "Katana1H": {
       "keyword": [
         "OCF_WeapTypeMelee",
-        "OCF_WeapTypeKatana1H"
+        "OCF_WeapTypeKatana1H",
+        "WeapTypeKatana"
       ],
       "commonNames": [
         "daito",
@@ -236,7 +244,8 @@
     "Claw1H": {
       "keyword": [
         "OCF_WeapTypeMelee",
-        "OCF_WeapTypeClaw1H"
+        "OCF_WeapTypeClaw1H",
+        "WeapTypeClaw"
       ],
       "commonNames": [
         "claw"
@@ -250,16 +259,18 @@
       "exclude": [],
       "validEquipType": "OneHand"
     },
-    "WarScythe1H": {
+    "Scythe1H": {
       "keyword": [
         "OCF_WeapTypePole1H",
         "OCF_WeapTypePole1H_Swing",
-        "OCF_WeapTypeWarscythe1H"
+        "OCF_WeapTypeWarscythe1H",
+        "WeapTypeScythe"
       ],
       "commonNames": [
         "war scythe",
         "warscythe",
         "war-scythe",
+        "scythe",
         "sickle"
       ],
       "excludeNames": [],
@@ -276,7 +287,8 @@
     "Whip1H": {
       "keyword": [
         "OCF_WeapTypeMelee",
-        "OCF_WeapTypeWhip1H"
+        "OCF_WeapTypeWhip1H",
+        "WeapTypeWhip"
       ],
       "commonNames": [
         "whip"
@@ -291,7 +303,8 @@
       "keyword": [
         "OCF_WeapTypeMelee",
         "OCF_WeapTypePole1H",
-        "OCF_WeapTypeJavelin1H"
+        "OCF_WeapTypeJavelin1H",
+        "WeapTypeJavelin"
       ],
       "commonNames": [
         "javelin"
@@ -307,7 +320,8 @@
         "OCF_WeapTypeMelee",
         "OCF_WeapTypePole1H",
         "OCF_WeapTypePole1H_Swing",
-        "OCF_WeapTypeGlaive1H"
+        "OCF_WeapTypeGlaive1H",
+        "WeapTypeGlaive"
       ],
       "commonNames": [
         "glaive"
@@ -323,7 +337,8 @@
         "OCF_WeapTypeMelee",
         "OCF_WeapTypePole1H",
         "OCF_WeapTypePole1H_Thrust",
-        "OCF_WeapTypeTrident1H"
+        "OCF_WeapTypeTrident1H",
+        "WeapTypeSpear"
       ],
       "commonNames": [
         "trident"
@@ -353,6 +368,10 @@
   },
   "sources": [
     "Skyrim.esm",
-    "OCF.esp"
+    "OCF.esp",
+    "NewArmoury.esp",
+    "SkyrimSpearMechanic.esp",
+    "Spears.esp",
+    "PrvtI_HeavyArmory.esp"
   ]
 }
